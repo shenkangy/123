@@ -1,0 +1,2418 @@
+2016-10-29 16:57:09 [127.0.0.1][-][db4vt429un51a6qkfoopb3j466][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user666/show".' in D:\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\phpStudy\WWW\advanced\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user666/show', Array)
+#1 D:\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\advanced\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\phpStudy\WWW\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\advanced\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2016-10-29 16:57:09 [127.0.0.1][-][db4vt429un51a6qkfoopb3j466][info][application] $_GET = [
+    'r' => 'user666/show'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '2dsnjfdbe4r1i6m3d5rgsdjtr1'
+    '_csrf-backend' => 'd75f6a9ea4f2c4cb3d4e251d1a828670310665fada9024d10bd09dc2c22b9e54a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"onWkIlgawQ3k6I3hJGxtGyKgfBIlt2Od\";}'
+    'advanced-frontend' => 'db4vt429un51a6qkfoopb3j466'
+    '_csrf-frontend' => '43b931a37d4a7ed07d3086a784593206ff314645836fcab71b25083dda774d0fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"JTq2CuyK4GC_f20RJIBJuwCogIto2-2T\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1768'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=user666/show'
+    'QUERY_STRING' => 'r=user666/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57987'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-backend=2dsnjfdbe4r1i6m3d5rgsdjtr1; _csrf-backend=d75f6a9ea4f2c4cb3d4e251d1a828670310665fada9024d10bd09dc2c22b9e54a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22onWkIlgawQ3k6I3hJGxtGyKgfBIlt2Od%22%3B%7D; advanced-frontend=db4vt429un51a6qkfoopb3j466; _csrf-frontend=43b931a37d4a7ed07d3086a784593206ff314645836fcab71b25083dda774d0fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22JTq2CuyK4GC_f20RJIBJuwCogIto2-2T%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477731429.4826
+    'REQUEST_TIME' => 1477731429
+]
+2016-10-30 09:57:38 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index".' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('index', Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2016-10-30 09:57:38 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => 'a37027bdf8d8231d23d57346f2b9101b659c422510e007319624931d361f1a59a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFcDwCxp1L8PlaVaN5nOIGzwd5fCkYIa\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '388'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=index'
+    'QUERY_STRING' => 'r=index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49397'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=a37027bdf8d8231d23d57346f2b9101b659c422510e007319624931d361f1a59a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFcDwCxp1L8PlaVaN5nOIGzwd5fCkYIa%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477792658.6262
+    'REQUEST_TIME' => 1477792658
+]
+2016-10-30 09:58:02 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: user/index' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/index', Array)
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2016-10-30 09:58:02 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => 'a37027bdf8d8231d23d57346f2b9101b659c422510e007319624931d361f1a59a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFcDwCxp1L8PlaVaN5nOIGzwd5fCkYIa\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '388'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49405'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=a37027bdf8d8231d23d57346f2b9101b659c422510e007319624931d361f1a59a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFcDwCxp1L8PlaVaN5nOIGzwd5fCkYIa%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477792682.8556
+    'REQUEST_TIME' => 1477792682
+]
+2016-10-30 09:58:24 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: user/index' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/index', Array)
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2016-10-30 09:58:24 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => 'a37027bdf8d8231d23d57346f2b9101b659c422510e007319624931d361f1a59a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bFcDwCxp1L8PlaVaN5nOIGzwd5fCkYIa\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '388'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49410'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=a37027bdf8d8231d23d57346f2b9101b659c422510e007319624931d361f1a59a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bFcDwCxp1L8PlaVaN5nOIGzwd5fCkYIa%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477792704.6438
+    'REQUEST_TIME' => 1477792704
+]
+2016-10-30 10:07:26 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/show', Array)
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2016-10-30 10:07:26 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'aTF2NE9vRTYLdxVwOCw9Rlh9TmQjDhNXJwQYewYoP0ENBBB3JDYMVw=='
+    'uname' => ''
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => 'eb4a3dd9d1273547779b993c4383dfda7e59aa31b7f690434ad1ff567e0f7654a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VLgJx98jEEYqARHguuJtyX5VkSOyUHrn\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1772'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49467'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '82'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=eb4a3dd9d1273547779b993c4383dfda7e59aa31b7f690434ad1ff567e0f7654a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VLgJx98jEEYqARHguuJtyX5VkSOyUHrn%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477793246.8338
+    'REQUEST_TIME' => 1477793246
+]
+2016-10-30 10:08:23 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/show', Array)
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2016-10-30 10:08:23 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'aTF2NE9vRTYLdxVwOCw9Rlh9TmQjDhNXJwQYewYoP0ENBBB3JDYMVw=='
+    'uname' => ''
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '18d9b8e0ed2d5865cfcb3f0fa1211e06fd9a4f6077e3cfe3c187c8b5d02d91e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9ik-FqvT2wXJhYNjjxK_hEBAsaE3HGLl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1772'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49471'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '82'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=18d9b8e0ed2d5865cfcb3f0fa1211e06fd9a4f6077e3cfe3c187c8b5d02d91e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229ik-FqvT2wXJhYNjjxK_hEBAsaE3HGLl%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477793303.3261
+    'REQUEST_TIME' => 1477793303
+]
+2016-10-30 10:08:42 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/show', Array)
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2016-10-30 10:08:42 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'aTF2NE9vRTYLdxVwOCw9Rlh9TmQjDhNXJwQYewYoP0ENBBB3JDYMVw=='
+    'uname' => ''
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '18d9b8e0ed2d5865cfcb3f0fa1211e06fd9a4f6077e3cfe3c187c8b5d02d91e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9ik-FqvT2wXJhYNjjxK_hEBAsaE3HGLl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1772'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49477'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '82'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=18d9b8e0ed2d5865cfcb3f0fa1211e06fd9a4f6077e3cfe3c187c8b5d02d91e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229ik-FqvT2wXJhYNjjxK_hEBAsaE3HGLl%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477793322.8232
+    'REQUEST_TIME' => 1477793322
+]
+2016-10-30 10:08:55 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/show', Array)
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2016-10-30 10:08:55 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'aTF2NE9vRTYLdxVwOCw9Rlh9TmQjDhNXJwQYewYoP0ENBBB3JDYMVw=='
+    'uname' => ''
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '18d9b8e0ed2d5865cfcb3f0fa1211e06fd9a4f6077e3cfe3c187c8b5d02d91e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9ik-FqvT2wXJhYNjjxK_hEBAsaE3HGLl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1772'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49481'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '82'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=18d9b8e0ed2d5865cfcb3f0fa1211e06fd9a4f6077e3cfe3c187c8b5d02d91e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229ik-FqvT2wXJhYNjjxK_hEBAsaE3HGLl%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477793335.8459
+    'REQUEST_TIME' => 1477793335
+]
+2016-10-30 10:15:18 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/show', Array)
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2016-10-30 10:15:18 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'aTF2NE9vRTYLdxVwOCw9Rlh9TmQjDhNXJwQYewYoP0ENBBB3JDYMVw=='
+    'uname' => ''
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '18d9b8e0ed2d5865cfcb3f0fa1211e06fd9a4f6077e3cfe3c187c8b5d02d91e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9ik-FqvT2wXJhYNjjxK_hEBAsaE3HGLl\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1756'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49626'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '82'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=18d9b8e0ed2d5865cfcb3f0fa1211e06fd9a4f6077e3cfe3c187c8b5d02d91e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229ik-FqvT2wXJhYNjjxK_hEBAsaE3HGLl%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477793718.7698
+    'REQUEST_TIME' => 1477793718
+]
+2016-10-30 10:52:05 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in D:\phpStudy\WWW\m11\10.29\1\frontend\views\user\add.php:10
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\frontend\views\user\add.php(10): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 10, Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\View.php(326): require('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\View.php(248): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\View.php(150): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\UserController))
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('add', Array, Object(frontend\controllers\UserController))
+#5 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(23): yii\base\Controller->render('add')
+#6 [internal function]: frontend\controllers\UserController->actionShow()
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#10 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/show', Array)
+#11 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2016-10-30 10:52:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'ZFZkOGNKeU5dPw8VJTsPGlYhPHILEzckDi4vZwsPOw8XNyELKw01Ig=='
+    'uname' => ''
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '18d9b8e0ed2d5865cfcb3f0fa1211e06fd9a4f6077e3cfe3c187c8b5d02d91e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9ik-FqvT2wXJhYNjjxK_hEBAsaE3HGLl\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '384'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51000'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '82'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=18d9b8e0ed2d5865cfcb3f0fa1211e06fd9a4f6077e3cfe3c187c8b5d02d91e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229ik-FqvT2wXJhYNjjxK_hEBAsaE3HGLl%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477795925.6941
+    'REQUEST_TIME' => 1477795925
+]
+2016-10-30 11:29:01 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Query' not found' in D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-10-30 11:29:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1756'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51603'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477798141.7068
+    'REQUEST_TIME' => 1477798141
+]
+2016-10-30 11:36:03 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'foreach' (T_FOREACH)' in D:\phpStudy\WWW\m11\10.29\1\frontend\views\user\show.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-10-30 11:36:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1780'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51669'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477798562.0189
+    'REQUEST_TIME' => 1477798562
+]
+2016-10-30 11:37:06 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'foreach' (T_FOREACH)' in D:\phpStudy\WWW\m11\10.29\1\frontend\views\user\show.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-10-30 11:37:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1780'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51713'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477798624.9185
+    'REQUEST_TIME' => 1477798624
+]
+2016-10-30 11:38:01 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'foreach' (T_FOREACH)' in D:\phpStudy\WWW\m11\10.29\1\frontend\views\user\show.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-10-30 11:38:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1780'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51738'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477798680.7417
+    'REQUEST_TIME' => 1477798680
+]
+2016-10-30 11:38:04 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'foreach' (T_FOREACH)' in D:\phpStudy\WWW\m11\10.29\1\frontend\views\user\show.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-10-30 11:38:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1780'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51741'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477798683.2998
+    'REQUEST_TIME' => 1477798683
+]
+2016-10-30 11:38:22 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: v' in D:\phpStudy\WWW\m11\10.29\1\frontend\views\user\show.php:16
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\frontend\views\user\show.php(16): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 16, Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\View.php(326): require('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\View.php(248): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\View.php(150): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\UserController))
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('show', Array, Object(frontend\controllers\UserController))
+#5 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(38): yii\base\Controller->render('show', Array)
+#6 [internal function]: frontend\controllers\UserController->actionShow()
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#10 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/show', Array)
+#11 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2016-10-30 11:38:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1780'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51745'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477798701.0898
+    'REQUEST_TIME' => 1477798701
+]
+2016-10-30 11:42:54 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: tdis' in D:\phpStudy\WWW\m11\10.29\1\frontend\views\user\show.php:5
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\frontend\views\user\show.php(5): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 5, Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\View.php(326): require('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\View.php(248): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\View.php(150): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\UserController))
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('show', Array, Object(frontend\controllers\UserController))
+#5 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(38): yii\base\Controller->render('show', Array)
+#6 [internal function]: frontend\controllers\UserController->actionShow()
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#10 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/show', Array)
+#11 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2016-10-30 11:42:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1780'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51790'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=1a5dfee0877d2129c2a0064eef9ea28c9b46adac6c9fbf08111eaf7e4852a761a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RnGFZD07rbtckHH4nPKAw_xqIEqsPFtT%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477798973.0464
+    'REQUEST_TIME' => 1477798973
+]
+2016-10-30 11:45:58 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: user/del' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('del', Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/del', Array)
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2016-10-30 11:45:58 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'user/del'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1756'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/del&id=1'
+    'QUERY_STRING' => 'r=user/del&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51829'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477799158.734
+    'REQUEST_TIME' => 1477799158
+]
+2016-10-30 11:52:28 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The HTTP status code is invalid: ?r=user/show' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Response.php:282
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Response.php(840): yii\web\Response->setStatusCode('?r=user/show')
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Controller.php(146): yii\web\Response->redirect('\xE5\x88\xA0\xE9\x99\xA4\xE6\x88\x90\xE5\x8A\x9F', '?r=user/show')
+#2 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(48): yii\web\Controller->redirect('\xE5\x88\xA0\xE9\x99\xA4\xE6\x88\x90\xE5\x8A\x9F', '?r=user/show')
+#3 [internal function]: frontend\controllers\UserController->actionDel()
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('del', Array)
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/del', Array)
+#8 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2016-10-30 11:52:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/del'
+    'id' => '5'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1788'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/del&id=5'
+    'QUERY_STRING' => 'r=user/del&id=5'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51852'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477799547.0592
+    'REQUEST_TIME' => 1477799547
+]
+2016-10-30 11:53:04 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '，' (T_STRING)' in D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php:48
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-10-30 11:53:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/del'
+    'id' => '5'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1788'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/del&id=5'
+    'QUERY_STRING' => 'r=user/del&id=5'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51860'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477799584.4893
+    'REQUEST_TIME' => 1477799584
+]
+2016-10-30 11:53:30 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The HTTP status code is invalid: 删除成功' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Response.php:282
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Response.php(840): yii\web\Response->setStatusCode('\xE5\x88\xA0\xE9\x99\xA4\xE6\x88\x90\xE5\x8A\x9F')
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Controller.php(146): yii\web\Response->redirect('?r=user/show', '\xE5\x88\xA0\xE9\x99\xA4\xE6\x88\x90\xE5\x8A\x9F')
+#2 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(48): yii\web\Controller->redirect('?r=user/show', '\xE5\x88\xA0\xE9\x99\xA4\xE6\x88\x90\xE5\x8A\x9F')
+#3 [internal function]: frontend\controllers\UserController->actionDel()
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('del', Array)
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/del', Array)
+#8 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2016-10-30 11:53:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/del'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1788'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/del&id=6'
+    'QUERY_STRING' => 'r=user/del&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51866'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477799609.6328
+    'REQUEST_TIME' => 1477799609
+]
+2016-10-30 11:58:09 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: dataList' in D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php:59
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(59): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 59, Array)
+#1 [internal function]: frontend\controllers\UserController->actionUp()
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('up', Array)
+#5 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/up', Array)
+#6 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2016-10-30 11:58:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/up'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1788'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/up&id=6'
+    'QUERY_STRING' => 'r=user/up&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51963'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477799888.1227
+    'REQUEST_TIME' => 1477799888
+]
+2016-10-30 12:15:20 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php:198
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(198): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\phpStudy\\WWW...', 198, Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\Command.php(430): yii\db\mysql\QueryBuilder->insert('user666', '11111', '[]')
+#2 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(28): yii\db\Command->insert('user666', '11111')
+#3 [internal function]: frontend\controllers\UserController->actionIndex()
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/index', Array)
+#8 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2016-10-30 12:15:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'VzV5Q2hPSGQ.fBsGJjcCK29bSwJeDgMAEnYYOScILRIRQAgLLCcqAA=='
+    'uname' => '11111'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1856'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52093'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '87'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477800919.7687
+    'REQUEST_TIME' => 1477800919
+]
+2016-10-30 12:16:18 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php:198
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(198): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\phpStudy\\WWW...', 198, Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\Command.php(430): yii\db\mysql\QueryBuilder->insert('user666', '11111', '[]')
+#2 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(28): yii\db\Command->insert('user666', '11111')
+#3 [internal function]: frontend\controllers\UserController->actionIndex()
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/index', Array)
+#8 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2016-10-30 12:16:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'VzV5Q2hPSGQ.fBsGJjcCK29bSwJeDgMAEnYYOScILRIRQAgLLCcqAA=='
+    'uname' => '11111'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1856'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52099'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '87'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477800977.77
+    'REQUEST_TIME' => 1477800977
+]
+2016-10-30 12:16:42 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php:198
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(198): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\phpStudy\\WWW...', 198, Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\Command.php(430): yii\db\mysql\QueryBuilder->insert('user666', '\xE6\x98\xAF\xE7\x96\xAF\xE7\x8B\x82\xE7\x9A\x84\xE6\x88\xBF...', '[]')
+#2 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(28): yii\db\Command->insert('user666', '\xE6\x98\xAF\xE7\x96\xAF\xE7\x8B\x82\xE7\x9A\x84\xE6\x88\xBF...')
+#3 [internal function]: frontend\controllers\UserController->actionIndex()
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/index', Array)
+#8 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2016-10-30 12:16:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'eTMuRGJCLXIQekwBLDpnPUFdHAVUA2YWPHBPPi0FSAQ/Rl8MJipPFg=='
+    'uname' => '是疯狂的房价是的'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1856'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52106'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '156'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477801001.9124
+    'REQUEST_TIME' => 1477801001
+]
+2016-10-30 12:18:36 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php:198
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(198): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\phpStudy\\WWW...', 198, Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\Command.php(430): yii\db\mysql\QueryBuilder->insert('user666', '\xE6\x98\xAF\xE7\x96\xAF\xE7\x8B\x82\xE7\x9A\x84\xE6\x88\xBF...', '[]')
+#2 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(28): yii\db\Command->insert('user666', '\xE6\x98\xAF\xE7\x96\xAF\xE7\x8B\x82\xE7\x9A\x84\xE6\x88\xBF...')
+#3 [internal function]: frontend\controllers\UserController->actionIndex()
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/index', Array)
+#8 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2016-10-30 12:18:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'eTMuRGJCLXIQekwBLDpnPUFdHAVUA2YWPHBPPi0FSAQ/Rl8MJipPFg=='
+    'uname' => '是疯狂的房价是的'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '384'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52120'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '156'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477801115.7459
+    'REQUEST_TIME' => 1477801115
+]
+2016-10-30 12:20:19 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php:198
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(198): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\phpStudy\\WWW...', 198, Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\Command.php(430): yii\db\mysql\QueryBuilder->insert('user666', '\xE6\x98\xAF\xE7\x96\xAF\xE7\x8B\x82\xE7\x9A\x84\xE6\x88\xBF...', '[]')
+#2 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(28): yii\db\Command->insert('user666', '\xE6\x98\xAF\xE7\x96\xAF\xE7\x8B\x82\xE7\x9A\x84\xE6\x88\xBF...')
+#3 [internal function]: frontend\controllers\UserController->actionIndex()
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/index', Array)
+#8 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2016-10-30 12:20:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'eTMuRGJCLXIQekwBLDpnPUFdHAVUA2YWPHBPPi0FSAQ/Rl8MJipPFg=='
+    'uname' => '是疯狂的房价是的'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '384'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52128'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '156'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477801217.9528
+    'REQUEST_TIME' => 1477801217
+]
+2016-10-30 12:22:27 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user666/show".' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user666/show', Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2016-10-30 12:22:27 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'user666/show'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '384'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user666/show'
+    'QUERY_STRING' => 'r=user666/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52140'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477801347.7102
+    'REQUEST_TIME' => 1477801347
+]
+2016-10-30 12:22:40 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user666/show".' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user666/show', Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2016-10-30 12:22:40 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'user666/show'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '384'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user666/show'
+    'QUERY_STRING' => 'r=user666/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52148'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477801360.1119
+    'REQUEST_TIME' => 1477801360
+]
+2016-10-30 12:22:42 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user666/show".' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user666/show', Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2016-10-30 12:22:42 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'user666/show'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '384'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user666/show'
+    'QUERY_STRING' => 'r=user666/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52148'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477801362.274
+    'REQUEST_TIME' => 1477801362
+]
+2016-10-30 12:31:33 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(81): yii\db\Command->execute()
+#2 [internal function]: frontend\controllers\UserController->actionUp()
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#5 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#6 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: UPDATE `user666` SET `uname`='俩谁大谁' WHERE id=' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\Schema.php:631
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `user666...')
+#1 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(81): yii\db\Command->execute()
+#2 [internal function]: frontend\controllers\UserController->actionUp()
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#5 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#6 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2016-10-30 12:31:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/up'
+    'id' => '11'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'WkU4dGdnMUgzDFoxKR97B2IrCjVRJnosHwZZDiggVD4cMEk8Iw9TLA=='
+    'uname' => '俩谁大谁'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '464'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/up&id=11'
+    'QUERY_STRING' => 'r=user/up&id=11'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52219'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '118'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/up&id=11'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477801892.3273
+    'REQUEST_TIME' => 1477801892
+]
+2016-10-30 12:34:41 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\db\Command::where()' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(81): yii\base\Component->__call('where', Array)
+#1 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(81): yii\db\Command->where('id=''')
+#2 [internal function]: frontend\controllers\UserController->actionUp()
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('up', Array)
+#6 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/up', Array)
+#7 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2016-10-30 12:34:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/up'
+    'id' => '9'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'R1diaGp1MUYuHgAtJA17CX85UClcNHoiAhQDEiUyVDABIhMgLh1TIg=='
+    'uname' => '是疯狂的'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iIbENxJO8n2A6AKdECazOGevFuqHDhbd\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '464'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/up&id=9'
+    'QUERY_STRING' => 'r=user/up&id=9'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52307'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '118'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=8e1c0c2fae7c847214adbb78b8b2f440c240dd4057857d3c1d8adb0107ee8971a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iIbENxJO8n2A6AKdECazOGevFuqHDhbd%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/up&id=9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477802080.0211
+    'REQUEST_TIME' => 1477802080
+]
+2016-10-30 12:49:14 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: dataList' in D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php:91
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\frontend\controllers\UserController.php(91): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 91, Array)
+#1 [internal function]: frontend\controllers\UserController->actionUp()
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('up', Array)
+#5 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/up', Array)
+#6 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2016-10-30 12:49:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/up'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => '17b62de654f242d072abd36b1ec84b4012d9d9b08eb4963b1c2ad9e9626c7614a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"bSaYRZk9Av-Drb7W0hBs7GVLmmFSRhJ4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1900'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/up&id=6'
+    'QUERY_STRING' => 'r=user/up&id=6'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52478'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=17b62de654f242d072abd36b1ec84b4012d9d9b08eb4963b1c2ad9e9626c7614a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bSaYRZk9Av-Drb7W0hBs7GVLmmFSRhJ4%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477802953.462
+    'REQUEST_TIME' => 1477802953
+]
+2016-10-30 12:50:37 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('up', Array)
+#2 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('user/up', Array)
+#3 D:\phpStudy\WWW\m11\10.29\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\m11\10.29\1\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2016-10-30 12:50:37 [127.0.0.1][-][oiae0rsu5574ar6nm33i5emoa1][info][application] $_GET = [
+    'r' => 'user/up'
+    'id' => '6'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'RzJKM05YOXYldRwKPxtKQyYLHl4lb3E.BFMOZXl1CycDYT92Jz8UIw=='
+    'uname' => '啊沙发舒'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'oiae0rsu5574ar6nm33i5emoa1'
+    '_csrf-frontend' => 'ab5d81f09a29e08a84089fb01ed370bfa5aee21adfc5ced539fc69fb1013f706a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"vrb3s_lLPIYkPiZ2ldMC5o-xtfeUSBAy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\AMD\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php55n;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1900'
+    'SCRIPT_NAME' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_URI' => '/m11/10.29/1/frontend/web/index.php?r=user/up&id=6'
+    'QUERY_STRING' => 'r=user/up&id=6'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52507'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/m11/10.29/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '118'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'advanced-frontend=oiae0rsu5574ar6nm33i5emoa1; _csrf-frontend=ab5d81f09a29e08a84089fb01ed370bfa5aee21adfc5ced539fc69fb1013f706a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22vrb3s_lLPIYkPiZ2ldMC5o-xtfeUSBAy%22%3B%7D'
+    'HTTP_REFERER' => 'http://127.0.0.1/m11/10.29/1/frontend/web/index.php?r=user/up&id=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/m11/10.29/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477803037.3428
+    'REQUEST_TIME' => 1477803037
+]
+2016-10-30 20:15:00 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii10'' in F:\web\WWW\1\vendor\yiisoft\yii2\db\Connection.php:602
+Stack trace:
+#0 F:\web\WWW\1\vendor\yiisoft\yii2\db\Connection.php(602): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 F:\web\WWW\1\vendor\yiisoft\yii2\db\Connection.php(544): yii\db\Connection->createPdoInstance()
+#2 F:\web\WWW\1\vendor\yiisoft\yii2\db\Connection.php(863): yii\db\Connection->open()
+#3 F:\web\WWW\1\vendor\yiisoft\yii2\db\Connection.php(850): yii\db\Connection->getMasterPdo()
+#4 F:\web\WWW\1\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 F:\web\WWW\1\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare('<span class="ke...')
+#6 F:\web\WWW\1\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 F:\web\WWW\1\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#8 F:\web\WWW\1\frontend\controllers\UserController.php(47): yii\db\Query->all()
+#9 [internal function]: frontend\controllers\UserController->actionShow()
+#10 F:\web\WWW\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 F:\web\WWW\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 F:\web\WWW\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 F:\web\WWW\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 F:\web\WWW\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 F:\web\WWW\1\frontend\web\index.php(17): yii\base\Application->run()
+#16 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii10'' in F:\web\WWW\1\vendor\yiisoft\yii2\db\Connection.php:549
+Stack trace:
+#0 F:\web\WWW\1\vendor\yiisoft\yii2\db\Connection.php(863): yii\db\Connection->open()
+#1 F:\web\WWW\1\vendor\yiisoft\yii2\db\Connection.php(850): yii\db\Connection->getMasterPdo()
+#2 F:\web\WWW\1\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 F:\web\WWW\1\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare('<span class="ke...')
+#4 F:\web\WWW\1\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 F:\web\WWW\1\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#6 F:\web\WWW\1\frontend\controllers\UserController.php(47): yii\db\Query->all()
+#7 [internal function]: frontend\controllers\UserController->actionShow()
+#8 F:\web\WWW\1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#9 F:\web\WWW\1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#10 F:\web\WWW\1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#11 F:\web\WWW\1\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#12 F:\web\WWW\1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 F:\web\WWW\1\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+
+2016-10-30 20:14:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'user/show'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f6b3482f34272aca5d1c1eb985bec99c' => '1475889819,1475894183'
+    'CNZZDATA4485288' => 'cnzz_eid=447686703-1475886363-http%3A%2F%2Flocalhost%2F&ntime=1477528891'
+    'CNZZDATA30081361' => 'cnzz_eid=1004006488-1476082376-http%3A%2F%2Flocalhost%2F&ntime=1476082376'
+    'CNZZDATA2652861' => 'cnzz_eid=25406871-1477357629-http%3A%2F%2Flocalhost%2F&ntime=1477357629'
+    'advanced-frontend' => 'i3jfr03ums73v306uuo3jnt6g4'
+    '_csrf-frontend' => '90d4e57f6124e6ce81c1bcf5f6819fbb07f1d4c6225b6fcf89a6eca51f07931fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"emqUo8cQcW7-wXdTfh7qGp7L-Zdr-gap\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;F:\\web\\mysql\\bin;F:\\bin;F:\\web\\qampp\\Data_lib\\perl\\bin;F:\\web\\qampp\\apache\\bin;F:\\web\\qampp\\php;F:\\web\\qampp\\svnserver\\Subversion\\bin;F:\\web\\qampp\\mysql\\bin;F:\\qampp\\Data_lib\\perl\\bin;F:\\qampp\\apache\\bin;F:\\qampp\\php;F:\\qampp\\svnserver\\Subversion\\bin;F:\\qampp\\mysql\\bin;'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'F:/web/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1764'
+    'SCRIPT_NAME' => '/1/frontend/web/index.php'
+    'REQUEST_URI' => '/1/frontend/web/index.php?r=user/show'
+    'QUERY_STRING' => 'r=user/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50253'
+    'SCRIPT_FILENAME' => 'F:/web/WWW/1/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/web/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/web/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'Hm_lvt_f6b3482f34272aca5d1c1eb985bec99c=1475889819,1475894183; CNZZDATA4485288=cnzz_eid%3D447686703-1475886363-http%253A%252F%252Flocalhost%252F%26ntime%3D1477528891; CNZZDATA30081361=cnzz_eid%3D1004006488-1476082376-http%253A%252F%252Flocalhost%252F%26ntime%3D1476082376; CNZZDATA2652861=cnzz_eid%3D25406871-1477357629-http%253A%252F%252Flocalhost%252F%26ntime%3D1477357629; advanced-frontend=i3jfr03ums73v306uuo3jnt6g4; _csrf-frontend=90d4e57f6124e6ce81c1bcf5f6819fbb07f1d4c6225b6fcf89a6eca51f07931fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22emqUo8cQcW7-wXdTfh7qGp7L-Zdr-gap%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/1/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477829693.8015
+    'REQUEST_TIME' => 1477829693
+]
