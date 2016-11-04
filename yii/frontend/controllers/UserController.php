@@ -28,7 +28,7 @@ class UserController extends Controller
 			$res=Yii::$app->db->createCommand()->insert('user666',$data)->execute();
 			if($res)
 			{
-				$this->redirect("?r=user/show");
+				$this->redirect("?r=admin/login");
 			}
 			else
 			{
