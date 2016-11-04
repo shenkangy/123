@@ -21,7 +21,14 @@ Route::any('show', 'UserController@show');
 Route::get('/del/{id}','UserController@del');
 Route::get('up/{id}','UserController@up');
 Route::post('update', 'UserController@update');
-
+Route::get('work', 'WorkController@work');
+Route::get('index', 'IndexController@index');
+Route::get('blog', 'BlogController@blog');
+Route::get('blog-info', 'BlogInfoController@BlogInfo');
+Route::get('process_info', 'ProcessInfoController@ProcessInfo');
+Route::get('process', 'ProcessController@process');
+Route::get('login', 'LoginController@login');
+Route::get('register', 'RegisterController@register');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

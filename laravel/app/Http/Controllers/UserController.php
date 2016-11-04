@@ -22,7 +22,7 @@ class UserController extends BaseController
     //添加
     public function add(){
         $data = Input::get();
-        $res=DB::table('user')->insert($data);
+        $res=DB::table('laravel')->insert($data);
         if($res){
             return redirect()->action('UserController@show');
         }
@@ -34,14 +34,14 @@ class UserController extends BaseController
 //        //print_r($data);
 //        return view('show', ['data' => $data]);
         //分页
-        $data = DB::table('user')->paginate(2);
+        $data = DB::table('laravel')->paginate(2);
         return view('show', ['data' => $data]);
     }
 
     //删除
     public function del($id){
         //echo $id;
-        $res = DB::table('user')->where('id', '=', $id)->delete();
+        $res = DB::table('laravel')->where('id', '=', $id)->delete();
         if($res){
             return redirect()->action('UserController@show');
         }
@@ -49,7 +49,7 @@ class UserController extends BaseController
 
     //删除页面
     public function up($id){
-        $arr = DB::table('user')->where('id','=',$id)->first();
+        $arr = DB::table('laravel')->where('id','=',$id)->first();
         //print_r($arr);die;
         return view('up', ['arr' => $arr]);
     }
@@ -60,7 +60,7 @@ class UserController extends BaseController
         //print_r($data);die;
         $id = $data['id'];
         unset($data['id']);
-        $res = DB::table('user')->where('id',$id)->update($data);
+        $res = DB::table('laravel')->where('id',$id)->update($data);
         if($res){
             return redirect()->action('UserController@show');
         }

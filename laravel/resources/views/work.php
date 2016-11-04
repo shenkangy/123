@@ -65,16 +65,18 @@
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse_">Menu <span class="icon-bar"></span> </a>
             <div class="nav-collapse nav-collapse_  collapse">
                   <ul class="nav sf-menu">
-                <li><a href="index.html">首页</a></li>
-                <li class="sub-menu"><a href="process.html">设计案例</a>
+                <li><a href="index">首页</a></li>
+                <li class="sub-menu"><a href="process">设计案例</a>
                    <ul>
                     <li><a href="#">一层别野</a></li>
                     <li><a href="#">二层别野</a></li>
                     <li><a href="#">三层别野</a></li>
                   </ul>
                 </li>
-                <li class="active"><a href="work.html">图片欣赏</a></li>
-                <li><a href="blog.html">论坛</a></li>
+                <li class="active"><a href="work">图片欣赏</a></li>
+                <li><a href="blog">论坛</a></li>
+                <li><a href="login">登陆</a></li> 
+                    <li><a href="register">注册</a></li> 
               </ul>
                 </div>
           </div>
@@ -82,7 +84,7 @@
       </div>
         </div>
   </div>
-  <h1 class="brand brand_" style="position:absolute; top:0; left:0;"><a href="index.html"><img alt="" src="img/logo.png"> </a></h1>
+  <h1 class="brand brand_" style="position:absolute; top:0; left:0;"><a href="index"><img alt="" src="img/logo.png"> </a></h1>
     </header>
 <div class="bg-content">       
   <!-- Content -->      
@@ -91,7 +93,7 @@
         <div class="container">
             <div class="row">
                     <article class="span12">
-                        <h4 style="font-size:14px">当前位置：<a href="index.html">首页</a>>图片欣赏</h4>
+                        <h4 style="font-size:14px">当前位置：<a href="index">首页</a>>图片欣赏</h4>
                     </article>
                     <div class="clear"></div>
                     <ul class="portfolio clearfix">           

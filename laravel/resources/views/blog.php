@@ -52,16 +52,18 @@
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse_">Menu <span class="icon-bar"></span> </a>
             <div class="nav-collapse nav-collapse_  collapse">
                   <ul class="nav sf-menu">
-                <li><a href="index.html">首页</a></li>
-                <li class="sub-menu"><a href="process.html">设计案例</a>
+                <li><a href="index">首页</a></li>
+                <li class="sub-menu"><a href="process">设计案例</a>
                    <ul>
                     <li><a href="#">一层别野</a></li>
                     <li><a href="#">二层别野</a></li>
                     <li><a href="#">三层别野</a></li>
                   </ul>
                 </li>
-                <li><a href="work.html">图片欣赏</a></li>
-                <li><a href="blog.html">论坛</a></li>
+                <li><a href="work">图片欣赏</a></li>
+                <li><a href="blog">论坛</a></li>
+                <li><a href="login">登陆</a></li> 
+                <li><a href="register">注册</a></li> 
               </ul>
                 </div>
           </div>
@@ -69,7 +71,7 @@
       </div>
         </div>
   </div>
-  <h1 class="brand brand_" style="position:absolute; top:0; left:0;"><a href="index.html"><img alt="" src="img/logo.png"> </a></h1>
+  <h1 class="brand brand_" style="position:absolute; top:0; left:0;"><a href="index"><img alt="" src="img/logo.png"> </a></h1>
     </header>
 <div class="bg-content">       
   <!--  content  -->      
@@ -77,7 +79,7 @@
     <div class="container">
           <div class="row">
           <article class="span12">
-                        <h4 style="font-size:14px">当前位置：<a href="index.html">首页</a>>论坛</h4>
+                        <h4 style="font-size:14px">当前位置：<a href="index">首页</a>>论坛</h4>
                     </article>
         <article class="span8">
          <div class="inner-1">         
@@ -90,7 +92,7 @@
             <div class="clear"></div>            
               <img alt="" src="img/blog-1.jpg">                               
               <p> 建筑平面图就比较直观了，主要信息就是柱网布置及每层房间功能墙体布置门窗布置楼梯位置等。而一层平面图在进行上部结构建模中是不需要的（有架空层及地下室等除外），一层平面图是在做基础时使用，至于如何真正的做结构设计本文不详述，这里只讲如何看建筑施工图。</p>
-              <a href="blog-info.html" class="btn btn-1">More</a>          
+              <a href="blog-info" class="btn btn-1">More</a>          
             </li>  
                         
             <li>  
@@ -101,7 +103,7 @@
             <div class="clear"></div>            
               <img alt="" src="img/blog-2.jpg">                               
               <p>对广大的自建房用户来说，最常用的图就是平面布局图了，也可理解为最基础最重要的图。在平面图的基础上才会设计出立面图，常见到有人看中意一个效果图后，要求设计师反推过来设计出平面图，这样一来会不太符合设计程序，当然少数也是可以做到的。</p>
-              <a href="blog-info.html" class="btn btn-1">More</a>          
+              <a href="blog-info" class="btn btn-1">More</a>          
             </li> 
             
             <li>  
@@ -112,7 +114,7 @@
             <div class="clear"></div>            
               <img alt="" src="img/blog-3.jpg">                               
               <p>图中门窗除用图例画出外，还应注写门窗代号和编号。门的代号通常用 “ M ”表示，窗的代号通常用 “ C ”表示，并分别在代号后面写上编号，用于区别门窗类型，统计门窗数量。对—些特殊用途的门窗也有相应的符号进行表示，如 FM 代表防火门、 MM 代表密闭防护门、 CM 代表窗连门。为便于施工，一般情况下，在首页图上或在本平面图内，附有门窗表，列出门窗的编号、名称、尺寸、数量及其所选标准图集的编号等内容。</p>
-              <a href="blog-info.html" class="btn btn-1">More</a>   
+              <a href="blog-info" class="btn btn-1">More</a>   
             </li> 
           </ul>
           <!--下一页开始-->

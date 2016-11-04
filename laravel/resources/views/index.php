@@ -66,6 +66,8 @@
 	                	</li>
 	                	<li><a href="work">房源类型图</a></li>
 	                	<li><a href="blog">论坛</a></li>
+	                	<li><a href="login">登陆</a></li> 
+	                	<li><a href="register">注册</a></li>            	
 	              	</ul>
 	            </div><!--end nav-collapse-->
           	</div><!--end container-->
@@ -115,42 +117,42 @@
 				        <ul class="thumbnails thumbnails-1 list-services">
 				            <li class="span4">
 				            	<div class="thumbnail thumbnail-1"> <img  src="img/show1.jpg" alt="">
-					                <section> <a href="process-info" class="link-1">欧美风格乡村二层房屋 </a>
+					                <section> <a href="process_info" class="link-1">欧美风格乡村二层房屋 </a>
 					                <p>咖啡色的屋顶瓦在阳光的照射下格外的醒目，翠绿高大的树林把整个房子隐密在其中，给人们呈现一种美国乡村风情的生活格调。</p>
 					                </section>
 				                </div>
 				          	</li>
 				            <li class="span4">
 					            <div class="thumbnail thumbnail-1"> <img  src="img/show2.jpg" alt="">
-					                <section> <a href="process-info" class="link-1">简洁古朴二层农村房屋 </a>
+					                <section> <a href="process_info" class="link-1">简洁古朴二层农村房屋 </a>
 					                <p>这是一张带有露台设计古老，掩映于林荫中的乡村二层房屋，简洁古朴之中渗透典雅，极具浓烈的大自然气息。</p>
 					                </section>
 					            </div>
 				            </li>
 				             <li class="span4">
 				                <div class="thumbnail thumbnail-1"> <img  src="img/show3.jpg" alt="">
-					                <section> <a href="process-info" class="link-1">中式二层带平台农村房屋</a>
+					                <section> <a href="process_info" class="link-1">中式二层带平台农村房屋</a>
 					                <p>南方中式风格的新农村住宅效果图，二层带平台，类似徽派风格，占地大概180平米左右，喜欢这个风格的朋友可以参考借鉴！</p>
 					                </section>
 				                </div>
 				            </li>
 				            <li class="span4">
 				                <div class="thumbnail thumbnail-1"> <img  src="img/show4.jpg" alt="">
-					                <section> <a href="process-info" class="link-1">江西新农村节能住宅</a>
+					                <section> <a href="process_info" class="link-1">江西新农村节能住宅</a>
 					                <p>这是一张江西的新农村住宅设计效果图，此设计方案简单实用，造价低，二层带阁楼，有太阳能装置，双拼户型设计，也可单独建造，</p>
 					                </section>
 				                </div>
 				            </li>
 				            <li class="span4">
 					            <div class="thumbnail thumbnail-1"> <img  src="img/show5.jpg" alt="">
-					                <section> <a href="process-info" class="link-1">三层中式新农村住宅</a>
+					                <section> <a href="process_info" class="link-1">三层中式新农村住宅</a>
 					                <p>一张三层中式新农村住宅设计效果图，中式古典风格，建筑占地带院落大概在225平米左右，喜欢这个风格的朋友可以参考下！</p>
 					                </section>
 					            </div>
 				            </li>
 				            <li class="span4">
 				            	<div class="thumbnail thumbnail-1"> <img  src="img/show6.jpg" alt="">
-				                	<section> <a href="process-info" class="link-1">江南风格二层农村 </a>
+				                	<section> <a href="process_info" class="link-1">江南风格二层农村 </a>
 				                	<p>这是一个新农村住宅设计大赛一等奖作品，设计别具一格，带中庭，二层坡屋顶，建筑占地大概约200平米左右</p>
 				              		</section>
 				                </div>
@@ -260,7 +262,7 @@
 	        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
 	        <!-- JiaThis Button END -->
         </ul>
-    <div class="privacy pull-left">&copy; Copyright &copy; 2014.Company lookbs All rights reserved. &nbsp;&nbsp;技术支持：&nbsp;&nbsp;邮箱：498121478@qq.com</div>
+    <div class="privacy pull-left">&copy; Copyright &copy; 2014.Company lookbs All rights reserved. &nbsp;&nbsp;技术支持：&nbsp;&nbsp;邮箱：471245128@qq.com</div>
   	</div>
 </footer>
 <script type="text/javascript" src="js/bootstrap.js"></script>
