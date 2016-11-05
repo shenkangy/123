@@ -10,7 +10,8 @@
 	
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/superfish.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
 	<script type="text/javascript" src="js/jquery.cookie.js"></script>   
     
 	<script type="text/javascript">if($(window).width()>1024){document.write("<"+"script src='js/jquery.preloader.js'></"+"script>");}	</script>
@@ -94,11 +95,11 @@
            </tr>         
            <tr>
              <td style="font-size:20px;color:#FFF;">验证码:</td>
-             <td><input type="verif"></td>
+             <td><input type="text"></td>
            </tr>
            <tr>
-             <td><input type="submit" value="登陆" class="btn btn-1"></td>
-             <td><input type="button" value="忘记密码" class="btn btn-1"></td>
+             <td><input type="submit" value="登陆" class="btn btn-lg btn-success"></td>
+             <td><input type="button" value="忘记密码" class="btn btn-sm btn-warning"></td>
            </tr>
            <tr>
              <td></td>

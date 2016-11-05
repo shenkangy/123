@@ -29,6 +29,7 @@ Route::get('process_info', 'ProcessInfoController@ProcessInfo');
 Route::get('process', 'ProcessController@process');
 Route::get('login', 'LoginController@login');
 Route::get('register', 'RegisterController@register');
+Route::get('user-info', 'UserInfoController@userinfo');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

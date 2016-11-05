@@ -94,7 +94,7 @@
            </tr>
            <tr>
              <td style="font-size:20px;color:#FFF;">确认密码:</td>
-             <td><input type="verif"></td>
+             <td><input type="password"></td>
            </tr> 
            <tr>
              <td style="font-size:20px;color:#FFF;">性别:</td>
@@ -119,8 +119,8 @@
                         </tr> 
             
            <tr>
-             <td><input type="submit" value="注册" class="btn btn-1"></td>
-             <td><a href="login"><input type="button" value="登录GO!" class="btn btn-1"></a></td>
+             <td><input type="submit" value="注册" class="btn btn-sm btn-warning"></td>
+             <td><a href="login"><input type="button" value="登录GO!" class="btn btn-lg btn-success"></a></td>
            </tr>
            <tr>
              <td></td>
