@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('links', 'LinksController@index');
 Route::get('index', 'UserController@index');
 Route::post('add', 'UserController@add');
 Route::any('show', 'UserController@show');
