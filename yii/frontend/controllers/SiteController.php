@@ -72,7 +72,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->redirect('?r=admin/login');
+        return $this->redirect('?r=login/login');
     }
 
     /**
