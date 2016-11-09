@@ -11897,3 +11897,730 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478611272.236
     'REQUEST_TIME' => 1478611272
 ]
+2016-11-09 14:38:18 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in E:\zhaopeng\project\Month11\project1\123\yii\frontend\controllers\LoginController.php:80
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-09 14:38:18 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=369014956-1478564332-http%3A%2F%2Fwww.project.com%2F&ntime=1478672350'
+    'Hm_lvt_fbfca6a323fa396dde12616e37bc1df9' => '1478586074'
+    'Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f' => '1478586074'
+    '_pzfxuvpc' => '1478586075676|1868918604131310745|5|1478600272857|2|1136041626728104777|5004020120781362518'
+    'Hm_lvt_0bccd3f0d70c2d02eb727b5add099013' => '1478586076'
+    '__utma' => '1.466500115.1478586078.1478586078.1478600273.2'
+    '__utmz' => '1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'iweb_safecode' => 'f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg'
+    'iweb_shoppingcart' => '339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR+JGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19'
+    'iweb_captcha' => '735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo+NGQzNWYzNj53amlhZQ'
+    'iweb_admin_role_name' => 'bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs'
+    'iweb_admin_id' => '8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw'
+    'iweb_admin_name' => '35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw'
+    'iweb_admin_pwd' => 'a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ'
+    'advanced-frontend' => '5usahc2fpsu65brpnclft2usb7'
+    '_csrf-frontend' => 'a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv\";}'
+    'jiathis_rdc' => '{\"http://www.project.com/Month11/project1/123/laravel/public/\":0|1478668916816,\"http://www.project.com/Month11/project1/123/laravel/public/index\":\"0|1478671537166\"}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\wamp\\php\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Sony\\VAIO Improvement\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;E:\\TortoiseSVN\\bin;E:\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Git\\cmd;E:\\tor\\bin;C:\\Users\\赵鹏\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2092'
+    'SCRIPT_NAME' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_URI' => '/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61510'
+    'SCRIPT_FILENAME' => 'E:/zhaopeng/project/Month11/project1/123/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.project.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D369014956-1478564332-http%253A%252F%252Fwww.project.com%252F%26ntime%3D1478672350; Hm_lvt_fbfca6a323fa396dde12616e37bc1df9=1478586074; Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f=1478586074; _pzfxuvpc=1478586075676%7C1868918604131310745%7C5%7C1478600272857%7C2%7C1136041626728104777%7C5004020120781362518; Hm_lvt_0bccd3f0d70c2d02eb727b5add099013=1478586076; __utma=1.466500115.1478586078.1478586078.1478600273.2; __utmz=1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); iweb_safecode=f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg; iweb_shoppingcart=339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR%2BJGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19; iweb_captcha=735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo%2BNGQzNWYzNj53amlhZQ; iweb_admin_role_name=bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs; iweb_admin_id=8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw; iweb_admin_name=35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw; iweb_admin_pwd=a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ; advanced-frontend=5usahc2fpsu65brpnclft2usb7; _csrf-frontend=a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv%22%3B%7D; jiathis_rdc=%7B%22http%3A//www.project.com/Month11/project1/123/laravel/public/%22%3A0%7C1478668916816%2C%22http%3A//www.project.com/Month11/project1/123/laravel/public/index%22%3A%220%7C1478671537166%22%7D'
+    'HTTP_REFERER' => 'http://www.project.com/Month11/project1/123/yii/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.project.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478673498.6441
+    'REQUEST_TIME' => 1478673498
+]
+2016-11-09 14:43:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/login' in E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#1 E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/login', Array)
+#2 E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\zhaopeng\project\Month11\project1\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\zhaopeng\project\Month11\project1\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2016-11-09 14:43:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/login'
+]
+
+$_POST = [
+    'admin_name' => 'zhaopeng'
+    'admin_pwd' => '123456'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=369014956-1478564332-http%3A%2F%2Fwww.project.com%2F&ntime=1478672350'
+    'Hm_lvt_fbfca6a323fa396dde12616e37bc1df9' => '1478586074'
+    'Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f' => '1478586074'
+    '_pzfxuvpc' => '1478586075676|1868918604131310745|5|1478600272857|2|1136041626728104777|5004020120781362518'
+    'Hm_lvt_0bccd3f0d70c2d02eb727b5add099013' => '1478586076'
+    '__utma' => '1.466500115.1478586078.1478586078.1478600273.2'
+    '__utmz' => '1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'iweb_safecode' => 'f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg'
+    'iweb_shoppingcart' => '339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR+JGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19'
+    'iweb_captcha' => '735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo+NGQzNWYzNj53amlhZQ'
+    'iweb_admin_role_name' => 'bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs'
+    'iweb_admin_id' => '8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw'
+    'iweb_admin_name' => '35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw'
+    'iweb_admin_pwd' => 'a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ'
+    'advanced-frontend' => '5usahc2fpsu65brpnclft2usb7'
+    '_csrf-frontend' => 'a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv\";}'
+    'jiathis_rdc' => '{\"http://www.project.com/Month11/project1/123/laravel/public/\":0|1478668916816,\"http://www.project.com/Month11/project1/123/laravel/public/index\":\"0|1478671537166\"}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\wamp\\php\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Sony\\VAIO Improvement\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;E:\\TortoiseSVN\\bin;E:\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Git\\cmd;E:\\tor\\bin;C:\\Users\\赵鹏\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2092'
+    'SCRIPT_NAME' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_URI' => '/Month11/project1/123/yii/frontend/web/?r=admin/login'
+    'QUERY_STRING' => 'r=admin/login'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61643'
+    'SCRIPT_FILENAME' => 'E:/zhaopeng/project/Month11/project1/123/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.project.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D369014956-1478564332-http%253A%252F%252Fwww.project.com%252F%26ntime%3D1478672350; Hm_lvt_fbfca6a323fa396dde12616e37bc1df9=1478586074; Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f=1478586074; _pzfxuvpc=1478586075676%7C1868918604131310745%7C5%7C1478600272857%7C2%7C1136041626728104777%7C5004020120781362518; Hm_lvt_0bccd3f0d70c2d02eb727b5add099013=1478586076; __utma=1.466500115.1478586078.1478586078.1478600273.2; __utmz=1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); iweb_safecode=f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg; iweb_shoppingcart=339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR%2BJGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19; iweb_captcha=735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo%2BNGQzNWYzNj53amlhZQ; iweb_admin_role_name=bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs; iweb_admin_id=8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw; iweb_admin_name=35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw; iweb_admin_pwd=a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ; advanced-frontend=5usahc2fpsu65brpnclft2usb7; _csrf-frontend=a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv%22%3B%7D; jiathis_rdc=%7B%22http%3A//www.project.com/Month11/project1/123/laravel/public/%22%3A0%7C1478668916816%2C%22http%3A//www.project.com/Month11/project1/123/laravel/public/index%22%3A%220%7C1478671537166%22%7D'
+    'CONTENT_LENGTH' => '36'
+    'HTTP_REFERER' => 'http://www.project.com/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_CSRF_TOKEN' => 'WklQOFRCQ1YZOCBSIDRzHwkxGkI5NjkaCgY2CjYDDS5sHBJqHS8wIA=='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.project.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478673823.8339
+    'REQUEST_TIME' => 1478673823
+]
+2016-11-09 14:44:30 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Query' not found' in E:\zhaopeng\project\Month11\project1\123\yii\frontend\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-09 14:44:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_POST = [
+    'admin_name' => 'zhaopeng'
+    'admin_pwd' => '123456'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=369014956-1478564332-http%3A%2F%2Fwww.project.com%2F&ntime=1478672350'
+    'Hm_lvt_fbfca6a323fa396dde12616e37bc1df9' => '1478586074'
+    'Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f' => '1478586074'
+    '_pzfxuvpc' => '1478586075676|1868918604131310745|5|1478600272857|2|1136041626728104777|5004020120781362518'
+    'Hm_lvt_0bccd3f0d70c2d02eb727b5add099013' => '1478586076'
+    '__utma' => '1.466500115.1478586078.1478586078.1478600273.2'
+    '__utmz' => '1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'iweb_safecode' => 'f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg'
+    'iweb_shoppingcart' => '339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR+JGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19'
+    'iweb_captcha' => '735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo+NGQzNWYzNj53amlhZQ'
+    'iweb_admin_role_name' => 'bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs'
+    'iweb_admin_id' => '8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw'
+    'iweb_admin_name' => '35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw'
+    'iweb_admin_pwd' => 'a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ'
+    'advanced-frontend' => '5usahc2fpsu65brpnclft2usb7'
+    '_csrf-frontend' => 'a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv\";}'
+    'jiathis_rdc' => '{\"http://www.project.com/Month11/project1/123/laravel/public/\":0|1478668916816,\"http://www.project.com/Month11/project1/123/laravel/public/index\":\"0|1478671537166\"}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\wamp\\php\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Sony\\VAIO Improvement\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;E:\\TortoiseSVN\\bin;E:\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Git\\cmd;E:\\tor\\bin;C:\\Users\\赵鹏\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2092'
+    'SCRIPT_NAME' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_URI' => '/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61661'
+    'SCRIPT_FILENAME' => 'E:/zhaopeng/project/Month11/project1/123/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.project.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D369014956-1478564332-http%253A%252F%252Fwww.project.com%252F%26ntime%3D1478672350; Hm_lvt_fbfca6a323fa396dde12616e37bc1df9=1478586074; Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f=1478586074; _pzfxuvpc=1478586075676%7C1868918604131310745%7C5%7C1478600272857%7C2%7C1136041626728104777%7C5004020120781362518; Hm_lvt_0bccd3f0d70c2d02eb727b5add099013=1478586076; __utma=1.466500115.1478586078.1478586078.1478600273.2; __utmz=1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); iweb_safecode=f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg; iweb_shoppingcart=339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR%2BJGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19; iweb_captcha=735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo%2BNGQzNWYzNj53amlhZQ; iweb_admin_role_name=bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs; iweb_admin_id=8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw; iweb_admin_name=35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw; iweb_admin_pwd=a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ; advanced-frontend=5usahc2fpsu65brpnclft2usb7; _csrf-frontend=a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv%22%3B%7D; jiathis_rdc=%7B%22http%3A//www.project.com/Month11/project1/123/laravel/public/%22%3A0%7C1478668916816%2C%22http%3A//www.project.com/Month11/project1/123/laravel/public/index%22%3A%220%7C1478671537166%22%7D'
+    'CONTENT_LENGTH' => '36'
+    'HTTP_REFERER' => 'http://www.project.com/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_CSRF_TOKEN' => 'OXQ2cnFXbzN6BUYYBSFfemoMfAgcIxV/aTtQQBMWIUsPIXQgODocRQ=='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.project.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478673870.6574
+    'REQUEST_TIME' => 1478673870
+]
+2016-11-09 14:44:32 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Query' not found' in E:\zhaopeng\project\Month11\project1\123\yii\frontend\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-09 14:44:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_POST = [
+    'admin_name' => 'zhaopeng'
+    'admin_pwd' => '123456'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=369014956-1478564332-http%3A%2F%2Fwww.project.com%2F&ntime=1478672350'
+    'Hm_lvt_fbfca6a323fa396dde12616e37bc1df9' => '1478586074'
+    'Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f' => '1478586074'
+    '_pzfxuvpc' => '1478586075676|1868918604131310745|5|1478600272857|2|1136041626728104777|5004020120781362518'
+    'Hm_lvt_0bccd3f0d70c2d02eb727b5add099013' => '1478586076'
+    '__utma' => '1.466500115.1478586078.1478586078.1478600273.2'
+    '__utmz' => '1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'iweb_safecode' => 'f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg'
+    'iweb_shoppingcart' => '339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR+JGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19'
+    'iweb_captcha' => '735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo+NGQzNWYzNj53amlhZQ'
+    'iweb_admin_role_name' => 'bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs'
+    'iweb_admin_id' => '8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw'
+    'iweb_admin_name' => '35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw'
+    'iweb_admin_pwd' => 'a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ'
+    'advanced-frontend' => '5usahc2fpsu65brpnclft2usb7'
+    '_csrf-frontend' => 'a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv\";}'
+    'jiathis_rdc' => '{\"http://www.project.com/Month11/project1/123/laravel/public/\":0|1478668916816,\"http://www.project.com/Month11/project1/123/laravel/public/index\":\"0|1478671537166\"}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\wamp\\php\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Sony\\VAIO Improvement\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;E:\\TortoiseSVN\\bin;E:\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Git\\cmd;E:\\tor\\bin;C:\\Users\\赵鹏\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2092'
+    'SCRIPT_NAME' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_URI' => '/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61667'
+    'SCRIPT_FILENAME' => 'E:/zhaopeng/project/Month11/project1/123/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.project.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D369014956-1478564332-http%253A%252F%252Fwww.project.com%252F%26ntime%3D1478672350; Hm_lvt_fbfca6a323fa396dde12616e37bc1df9=1478586074; Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f=1478586074; _pzfxuvpc=1478586075676%7C1868918604131310745%7C5%7C1478600272857%7C2%7C1136041626728104777%7C5004020120781362518; Hm_lvt_0bccd3f0d70c2d02eb727b5add099013=1478586076; __utma=1.466500115.1478586078.1478586078.1478600273.2; __utmz=1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); iweb_safecode=f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg; iweb_shoppingcart=339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR%2BJGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19; iweb_captcha=735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo%2BNGQzNWYzNj53amlhZQ; iweb_admin_role_name=bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs; iweb_admin_id=8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw; iweb_admin_name=35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw; iweb_admin_pwd=a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ; advanced-frontend=5usahc2fpsu65brpnclft2usb7; _csrf-frontend=a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv%22%3B%7D; jiathis_rdc=%7B%22http%3A//www.project.com/Month11/project1/123/laravel/public/%22%3A0%7C1478668916816%2C%22http%3A//www.project.com/Month11/project1/123/laravel/public/index%22%3A%220%7C1478671537166%22%7D'
+    'CONTENT_LENGTH' => '36'
+    'HTTP_REFERER' => 'http://www.project.com/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_CSRF_TOKEN' => 'OXQ2cnFXbzN6BUYYBSFfemoMfAgcIxV/aTtQQBMWIUsPIXQgODocRQ=='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.project.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478673872.6094
+    'REQUEST_TIME' => 1478673872
+]
+2016-11-09 14:44:48 [127.0.0.1][-][5usahc2fpsu65brpnclft2usb7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\base\Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#2 E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('login/login', Array)
+#3 E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 E:\zhaopeng\project\Month11\project1\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2016-11-09 14:44:48 [127.0.0.1][-][5usahc2fpsu65brpnclft2usb7][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_POST = [
+    'admin_name' => 'zhaopeng'
+    'admin_pwd' => '123456'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=369014956-1478564332-http%3A%2F%2Fwww.project.com%2F&ntime=1478672350'
+    'Hm_lvt_fbfca6a323fa396dde12616e37bc1df9' => '1478586074'
+    'Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f' => '1478586074'
+    '_pzfxuvpc' => '1478586075676|1868918604131310745|5|1478600272857|2|1136041626728104777|5004020120781362518'
+    'Hm_lvt_0bccd3f0d70c2d02eb727b5add099013' => '1478586076'
+    '__utma' => '1.466500115.1478586078.1478586078.1478600273.2'
+    '__utmz' => '1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'iweb_safecode' => 'f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg'
+    'iweb_shoppingcart' => '339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR+JGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19'
+    'iweb_captcha' => '735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo+NGQzNWYzNj53amlhZQ'
+    'iweb_admin_role_name' => 'bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs'
+    'iweb_admin_id' => '8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw'
+    'iweb_admin_name' => '35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw'
+    'iweb_admin_pwd' => 'a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ'
+    'advanced-frontend' => '5usahc2fpsu65brpnclft2usb7'
+    '_csrf-frontend' => 'a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv\";}'
+    'jiathis_rdc' => '{\"http://www.project.com/Month11/project1/123/laravel/public/\":0|1478668916816,\"http://www.project.com/Month11/project1/123/laravel/public/index\":\"0|1478671537166\"}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin_name' => 'zhaopeng'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\wamp\\php\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Sony\\VAIO Improvement\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;E:\\TortoiseSVN\\bin;E:\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Git\\cmd;E:\\tor\\bin;C:\\Users\\赵鹏\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2092'
+    'SCRIPT_NAME' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_URI' => '/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61671'
+    'SCRIPT_FILENAME' => 'E:/zhaopeng/project/Month11/project1/123/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.project.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D369014956-1478564332-http%253A%252F%252Fwww.project.com%252F%26ntime%3D1478672350; Hm_lvt_fbfca6a323fa396dde12616e37bc1df9=1478586074; Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f=1478586074; _pzfxuvpc=1478586075676%7C1868918604131310745%7C5%7C1478600272857%7C2%7C1136041626728104777%7C5004020120781362518; Hm_lvt_0bccd3f0d70c2d02eb727b5add099013=1478586076; __utma=1.466500115.1478586078.1478586078.1478600273.2; __utmz=1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); iweb_safecode=f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg; iweb_shoppingcart=339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR%2BJGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19; iweb_captcha=735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo%2BNGQzNWYzNj53amlhZQ; iweb_admin_role_name=bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs; iweb_admin_id=8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw; iweb_admin_name=35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw; iweb_admin_pwd=a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ; advanced-frontend=5usahc2fpsu65brpnclft2usb7; _csrf-frontend=a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv%22%3B%7D; jiathis_rdc=%7B%22http%3A//www.project.com/Month11/project1/123/laravel/public/%22%3A0%7C1478668916816%2C%22http%3A//www.project.com/Month11/project1/123/laravel/public/index%22%3A%220%7C1478671537166%22%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.project.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478673888.7274
+    'REQUEST_TIME' => 1478673888
+]
+2016-11-09 14:45:44 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Query' not found' in E:\zhaopeng\project\Month11\project1\123\yii\frontend\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-09 14:45:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_POST = [
+    'admin_name' => 'zhaopeng'
+    'admin_pwd' => '123456'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=369014956-1478564332-http%3A%2F%2Fwww.project.com%2F&ntime=1478672350'
+    'Hm_lvt_fbfca6a323fa396dde12616e37bc1df9' => '1478586074'
+    'Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f' => '1478586074'
+    '_pzfxuvpc' => '1478586075676|1868918604131310745|5|1478600272857|2|1136041626728104777|5004020120781362518'
+    'Hm_lvt_0bccd3f0d70c2d02eb727b5add099013' => '1478586076'
+    '__utma' => '1.466500115.1478586078.1478586078.1478600273.2'
+    '__utmz' => '1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'iweb_safecode' => 'f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg'
+    'iweb_shoppingcart' => '339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR+JGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19'
+    'iweb_captcha' => '735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo+NGQzNWYzNj53amlhZQ'
+    'iweb_admin_role_name' => 'bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs'
+    'iweb_admin_id' => '8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw'
+    'iweb_admin_name' => '35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw'
+    'iweb_admin_pwd' => 'a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ'
+    'advanced-frontend' => '5usahc2fpsu65brpnclft2usb7'
+    '_csrf-frontend' => 'a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv\";}'
+    'jiathis_rdc' => '{\"http://www.project.com/Month11/project1/123/laravel/public/\":0|1478668916816,\"http://www.project.com/Month11/project1/123/laravel/public/index\":\"0|1478671537166\"}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\wamp\\php\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Sony\\VAIO Improvement\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;E:\\TortoiseSVN\\bin;E:\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Git\\cmd;E:\\tor\\bin;C:\\Users\\赵鹏\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2092'
+    'SCRIPT_NAME' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_URI' => '/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61692'
+    'SCRIPT_FILENAME' => 'E:/zhaopeng/project/Month11/project1/123/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.project.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D369014956-1478564332-http%253A%252F%252Fwww.project.com%252F%26ntime%3D1478672350; Hm_lvt_fbfca6a323fa396dde12616e37bc1df9=1478586074; Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f=1478586074; _pzfxuvpc=1478586075676%7C1868918604131310745%7C5%7C1478600272857%7C2%7C1136041626728104777%7C5004020120781362518; Hm_lvt_0bccd3f0d70c2d02eb727b5add099013=1478586076; __utma=1.466500115.1478586078.1478586078.1478600273.2; __utmz=1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); iweb_safecode=f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg; iweb_shoppingcart=339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR%2BJGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19; iweb_captcha=735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo%2BNGQzNWYzNj53amlhZQ; iweb_admin_role_name=bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs; iweb_admin_id=8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw; iweb_admin_name=35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw; iweb_admin_pwd=a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ; advanced-frontend=5usahc2fpsu65brpnclft2usb7; _csrf-frontend=a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv%22%3B%7D; jiathis_rdc=%7B%22http%3A//www.project.com/Month11/project1/123/laravel/public/%22%3A0%7C1478668916816%2C%22http%3A//www.project.com/Month11/project1/123/laravel/public/index%22%3A%220%7C1478671537166%22%7D'
+    'CONTENT_LENGTH' => '36'
+    'HTTP_REFERER' => 'http://www.project.com/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_CSRF_TOKEN' => 'NFVPai03V253JD8AWUFnJ2ctBRBAQy0iZBopWE92GRYCAA04ZFokGA=='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.project.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478673944.3568
+    'REQUEST_TIME' => 1478673944
+]
+2016-11-09 14:46:00 [127.0.0.1][-][5usahc2fpsu65brpnclft2usb7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\base\Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#2 E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('login/login', Array)
+#3 E:\zhaopeng\project\Month11\project1\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 E:\zhaopeng\project\Month11\project1\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2016-11-09 14:46:00 [127.0.0.1][-][5usahc2fpsu65brpnclft2usb7][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_POST = [
+    'admin_name' => 'zhaopeng'
+    'admin_pwd' => '123456'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=369014956-1478564332-http%3A%2F%2Fwww.project.com%2F&ntime=1478672350'
+    'Hm_lvt_fbfca6a323fa396dde12616e37bc1df9' => '1478586074'
+    'Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f' => '1478586074'
+    '_pzfxuvpc' => '1478586075676|1868918604131310745|5|1478600272857|2|1136041626728104777|5004020120781362518'
+    'Hm_lvt_0bccd3f0d70c2d02eb727b5add099013' => '1478586076'
+    '__utma' => '1.466500115.1478586078.1478586078.1478600273.2'
+    '__utmz' => '1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'iweb_safecode' => 'f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg'
+    'iweb_shoppingcart' => '339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR+JGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19'
+    'iweb_captcha' => '735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo+NGQzNWYzNj53amlhZQ'
+    'iweb_admin_role_name' => 'bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs'
+    'iweb_admin_id' => '8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw'
+    'iweb_admin_name' => '35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw'
+    'iweb_admin_pwd' => 'a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ'
+    'advanced-frontend' => '5usahc2fpsu65brpnclft2usb7'
+    '_csrf-frontend' => 'a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv\";}'
+    'jiathis_rdc' => '{\"http://www.project.com/Month11/project1/123/laravel/public/\":0|1478668916816,\"http://www.project.com/Month11/project1/123/laravel/public/index\":\"0|1478671537166\"}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'admin_name' => 'zhaopeng'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\wamp\\php\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Sony\\VAIO Improvement\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;E:\\TortoiseSVN\\bin;E:\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Git\\cmd;E:\\tor\\bin;C:\\Users\\赵鹏\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2092'
+    'SCRIPT_NAME' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_URI' => '/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61700'
+    'SCRIPT_FILENAME' => 'E:/zhaopeng/project/Month11/project1/123/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.project.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D369014956-1478564332-http%253A%252F%252Fwww.project.com%252F%26ntime%3D1478672350; Hm_lvt_fbfca6a323fa396dde12616e37bc1df9=1478586074; Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f=1478586074; _pzfxuvpc=1478586075676%7C1868918604131310745%7C5%7C1478600272857%7C2%7C1136041626728104777%7C5004020120781362518; Hm_lvt_0bccd3f0d70c2d02eb727b5add099013=1478586076; __utma=1.466500115.1478586078.1478586078.1478600273.2; __utmz=1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); iweb_safecode=f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg; iweb_shoppingcart=339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR%2BJGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19; iweb_captcha=735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo%2BNGQzNWYzNj53amlhZQ; iweb_admin_role_name=bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs; iweb_admin_id=8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw; iweb_admin_name=35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw; iweb_admin_pwd=a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ; advanced-frontend=5usahc2fpsu65brpnclft2usb7; _csrf-frontend=a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv%22%3B%7D; jiathis_rdc=%7B%22http%3A//www.project.com/Month11/project1/123/laravel/public/%22%3A0%7C1478668916816%2C%22http%3A//www.project.com/Month11/project1/123/laravel/public/index%22%3A%220%7C1478671537166%22%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.project.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478673960.466
+    'REQUEST_TIME' => 1478673960
+]
+2016-11-09 14:49:56 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Query' not found' in E:\zhaopeng\project\Month11\project1\123\yii\frontend\controllers\LoginController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-09 14:49:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_POST = [
+    'admin_name' => 'zhaopeng'
+    'admin_pwd' => '123456'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=369014956-1478564332-http%3A%2F%2Fwww.project.com%2F&ntime=1478672350'
+    'Hm_lvt_fbfca6a323fa396dde12616e37bc1df9' => '1478586074'
+    'Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f' => '1478586074'
+    '_pzfxuvpc' => '1478586075676|1868918604131310745|5|1478600272857|2|1136041626728104777|5004020120781362518'
+    'Hm_lvt_0bccd3f0d70c2d02eb727b5add099013' => '1478586076'
+    '__utma' => '1.466500115.1478586078.1478586078.1478600273.2'
+    '__utmz' => '1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'iweb_safecode' => 'f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg'
+    'iweb_shoppingcart' => '339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR+JGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19'
+    'iweb_captcha' => '735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo+NGQzNWYzNj53amlhZQ'
+    'iweb_admin_role_name' => 'bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs'
+    'iweb_admin_id' => '8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw'
+    'iweb_admin_name' => '35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw'
+    'iweb_admin_pwd' => 'a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ'
+    'advanced-frontend' => '5usahc2fpsu65brpnclft2usb7'
+    '_csrf-frontend' => 'a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv\";}'
+    'jiathis_rdc' => '{\"http://www.project.com/Month11/project1/123/laravel/public/\":0|1478668916816,\"http://www.project.com/Month11/project1/123/laravel/public/index\":\"0|1478671537166\"}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\wamp\\php\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Sony\\VAIO Improvement\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;E:\\TortoiseSVN\\bin;E:\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Git\\cmd;E:\\tor\\bin;C:\\Users\\赵鹏\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2092'
+    'SCRIPT_NAME' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_URI' => '/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61793'
+    'SCRIPT_FILENAME' => 'E:/zhaopeng/project/Month11/project1/123/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.project.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D369014956-1478564332-http%253A%252F%252Fwww.project.com%252F%26ntime%3D1478672350; Hm_lvt_fbfca6a323fa396dde12616e37bc1df9=1478586074; Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f=1478586074; _pzfxuvpc=1478586075676%7C1868918604131310745%7C5%7C1478600272857%7C2%7C1136041626728104777%7C5004020120781362518; Hm_lvt_0bccd3f0d70c2d02eb727b5add099013=1478586076; __utma=1.466500115.1478586078.1478586078.1478600273.2; __utmz=1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); iweb_safecode=f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg; iweb_shoppingcart=339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR%2BJGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19; iweb_captcha=735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo%2BNGQzNWYzNj53amlhZQ; iweb_admin_role_name=bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs; iweb_admin_id=8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw; iweb_admin_name=35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw; iweb_admin_pwd=a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ; advanced-frontend=5usahc2fpsu65brpnclft2usb7; _csrf-frontend=a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv%22%3B%7D; jiathis_rdc=%7B%22http%3A//www.project.com/Month11/project1/123/laravel/public/%22%3A0%7C1478668916816%2C%22http%3A//www.project.com/Month11/project1/123/laravel/public/index%22%3A%220%7C1478671537166%22%7D'
+    'CONTENT_LENGTH' => '36'
+    'HTTP_REFERER' => 'http://www.project.com/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_CSRF_TOKEN' => 'X2pUeEsyV2ocGyQSP0RnIwwSHgImRi0mDyUySilzGRJpPxYqAl8kHA=='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.project.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478674196.3245
+    'REQUEST_TIME' => 1478674196
+]
+2016-11-09 14:54:47 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Query' not found' in E:\zhaopeng\project\Month11\project1\123\yii\frontend\controllers\LoginController.php:38
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-09 14:54:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_POST = [
+    'admin_name' => 'zhaopeng'
+    'admin_pwd' => '123456'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=369014956-1478564332-http%3A%2F%2Fwww.project.com%2F&ntime=1478672350'
+    'Hm_lvt_fbfca6a323fa396dde12616e37bc1df9' => '1478586074'
+    'Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f' => '1478586074'
+    '_pzfxuvpc' => '1478586075676|1868918604131310745|5|1478600272857|2|1136041626728104777|5004020120781362518'
+    'Hm_lvt_0bccd3f0d70c2d02eb727b5add099013' => '1478586076'
+    '__utma' => '1.466500115.1478586078.1478586078.1478600273.2'
+    '__utmz' => '1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'iweb_safecode' => 'f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg'
+    'iweb_shoppingcart' => '339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR+JGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19'
+    'iweb_captcha' => '735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo+NGQzNWYzNj53amlhZQ'
+    'iweb_admin_role_name' => 'bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs'
+    'iweb_admin_id' => '8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw'
+    'iweb_admin_name' => '35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw'
+    'iweb_admin_pwd' => 'a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ'
+    'advanced-frontend' => '5usahc2fpsu65brpnclft2usb7'
+    '_csrf-frontend' => 'a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv\";}'
+    'jiathis_rdc' => '{\"http://www.project.com/Month11/project1/123/laravel/public/\":0|1478668916816,\"http://www.project.com/Month11/project1/123/laravel/public/index\":\"0|1478671537166\"}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\wamp\\php\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Sony\\VAIO Improvement\\;C:\\Program Files (x86)\\Sony\\VAIO Startup Setting Tool;E:\\TortoiseSVN\\bin;E:\\phpstudy\\php55n;C:\\ProgramData\\ComposerSetup\\bin;E:\\Git\\cmd;E:\\tor\\bin;C:\\Users\\赵鹏\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2092'
+    'SCRIPT_NAME' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_URI' => '/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61852'
+    'SCRIPT_FILENAME' => 'E:/zhaopeng/project/Month11/project1/123/yii/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/zhaopeng/project'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.project.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D369014956-1478564332-http%253A%252F%252Fwww.project.com%252F%26ntime%3D1478672350; Hm_lvt_fbfca6a323fa396dde12616e37bc1df9=1478586074; Hm_lvt_b3ad53a84ea4279d8124cc28d3c3220f=1478586074; _pzfxuvpc=1478586075676%7C1868918604131310745%7C5%7C1478600272857%7C2%7C1136041626728104777%7C5004020120781362518; Hm_lvt_0bccd3f0d70c2d02eb727b5add099013=1478586076; __utma=1.466500115.1478586078.1478586078.1478600273.2; __utmz=1.1478586078.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); iweb_safecode=f1952d6a51MDM4MDAwODkyNjxnNmliODI2YzVjZDAwMjk0OTgyMWYwM2U4MGZhMTVtODgxPDoxMTU3OjJlZjQ6PDI6bTxkMg; iweb_shoppingcart=339a06beebMjA2MDA2MDQyOGM0MzI3ZWNtPGRiYzkyNWY3ZTAxNTR%2BJGJqZ2F7Jj9cXS0ncHVtbXVndCY8XF19; iweb_captcha=735ba3bae2MzY3OTUwMDkzMGw0M2RjMWA3NGEzNjo%2BNGQzNWYzNj53amlhZQ; iweb_admin_role_name=bc22b892a9MDY4NDcwMDMwMD0xYmtjPjZuM2c2aj41MmY0PWNmMWPotoXnvaflrqHnlYbmkZs; iweb_admin_id=8229d724a5NDk2MDMwNDAwNDA5ZDVlNjA2N2I3PW02YWsyamEzNWEw; iweb_admin_name=35dc9b04afMDAwMDA2MDc0Nj5jYDwxODdkNDJkMTQ0ZWU2MDBrMTBkZG1pbw; iweb_admin_pwd=a5a8db8ab5MDc2Mzg2MDAwMjExYTk1N2dmZmVkYj1mOTA4ODVlPGJlMTFkbWIzOTY5ZmMzOGFkY2c8NWU0NTVnNzRiPT83ZQ; advanced-frontend=5usahc2fpsu65brpnclft2usb7; _csrf-frontend=a62ab46f0a42de84623d92c7bb6034180f189dfdb05f2ac6a3db81caa3a553cfa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Cqpjtv0ISxJzmtzLPOf2bANx6UBRImsv%22%3B%7D; jiathis_rdc=%7B%22http%3A//www.project.com/Month11/project1/123/laravel/public/%22%3A0%7C1478668916816%2C%22http%3A//www.project.com/Month11/project1/123/laravel/public/index%22%3A%220%7C1478671537166%22%7D'
+    'CONTENT_LENGTH' => '36'
+    'HTTP_REFERER' => 'http://www.project.com/Month11/project1/123/yii/frontend/web/?r=login/login'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_CSRF_TOKEN' => 'bi5YaHJJdDUtXygCBj9EfD1WEhIfPQ55PmE.WhAIOk1Yexo6OyQHQw=='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_HOST' => 'www.project.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/Month11/project1/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478674487.2599
+    'REQUEST_TIME' => 1478674487
+]
