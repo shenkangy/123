@@ -226,10 +226,11 @@
 
 						<li class="light-blue">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-								<img class="nav-user-photo" src="assets/avatars/user.jpg" alt="Jason's Photo" />
+								<img class="nav-user-photo" src="assets/avatars/avatar4.png" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>欢迎光临,</small>
-Jason
+									<?php $session = Yii::$app->session; ?>
+									<?php echo $session->get('admin_name'); ?>
 								</span>
 
 								<i class="icon-caret-down"></i>

@@ -167,6 +167,8 @@
 	    <div class="container">
 	       	<h2>共享房屋资源</h2>
 	        <p>为我们的人生去奋斗，先有了房子再说</p>
+	        <p>推广链接:http://www.aiwujiwu.com/register?user_id=<?php echo session('user_id');
+ ?></p>
 	        <p>所以你还在等什么？看看有没有你相中的房子。等有钱了将它买下来呀！</p>
 	    </div><!--end contauner-->
 	</div><!--end row-2-->

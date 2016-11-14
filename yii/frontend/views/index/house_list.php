@@ -47,7 +47,7 @@
 	</head>
 
 	<body>
-		<?php include('head.php')?>
+		<?php include('head.php'); ?>
 
 		<div class="main-container" id="main-container">
 			<script type="text/javascript">
@@ -93,7 +93,7 @@
 							<span class="btn btn-danger"></span>
 						</div>
 					</div><!-- #sidebar-shortcuts -->
-					<?php include('left.php')?>
+					<?php include('left.php'); ?>
                     <!-- /.nav-list -->
 
 					<div class="sidebar-collapse" id="sidebar-collapse">
@@ -125,10 +125,7 @@
 
 						<div class="nav-search" id="nav-search">
 							<form class="form-search">
-								<span class="input-icon">
-									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
-									<i class="icon-search nav-search-icon"></i>
-								</span>
+								<!-- 原来是放搜索框的地儿 -->
 							</form>
 						</div><!-- #nav-search -->
 					</div>
@@ -151,6 +148,17 @@
 								<div class="row">
 									<div class="col-xs-12">
 										<div class="table-responsive">
+										<p class="input-icon">
+									<button class="btn btn-xs btn-success" id="price_asc"><i class="icon-search nav-search-icon"></i>价格升序</button>
+
+									<button class="btn btn-xs btn-success" id="price_desc"><i class="icon-search nav-search-icon"></i>价格降序</button>
+									<input type="text" placeholder="关键字" class="nav-search-input" id="keyword" autocomplete="off" />关键字
+									<input type="text" placeholder="排除关键字" class="nav-search-input" id="unkeyword" autocomplete="off" />排除关键字
+									<input type="text" size="9" placeholder="最低价" class="nav-search-input" id="start_price" autocomplete="off" />-
+									<input type="text" size="9" placeholder="最高价" class="nav-search-input" id="end_price" autocomplete="off" />价格
+									<button class="btn btn-xs btn-success" id="search"><i class="icon-search nav-search-icon"></i>搜索</button>
+									
+								</p>
 											<table id="sample-table-1" class="table table-striped table-bordered table-hover">
 												<thead>
 													<tr>
@@ -162,19 +170,27 @@
 														</th>
 														<th>房屋名称</th>
 														<th>地理位置</th>
-														<th class="hidden-480">房屋价格</th>
+														<th>预览</th>
+														<th class="hidden-480">房屋类型</th>
 
+														<th>所属区域</th>
+														<th>楼层</th>
+														<th>附近地铁</th>
+														<th>供暖方式</th>
+														<th>价格</th>
+														<th>看房人数</th>
+														<th>房屋大小</th>
 														<th>
 															<i class="icon-time bigger-110 hidden-480"></i>
-															联系电话
+															上线时间
 														</th>
-														<th class="hidden-480">联系人</th>
-
-														<th></th>
+														<th class="hidden-480">面向方向</th>
+														<th class="hidden-480">操作</th>
 													</tr>
 												</thead>
 
-												<tbody>
+												<tbody id="tbody">
+												<?php foreach ($data as $key => $v) { ?>
 													<tr>
 														<td class="center">
 															<label>
@@ -184,198 +200,42 @@
 														</td>
 
 														<td>
-															<a href="#">ace.com</a>
+															<a href="#"><?php echo $v['title'] ?></a>
 														</td>
-														<td>$45</td>
-														<td class="hidden-480">3,330</td>
-														<td>Feb 12</td>
+														<td><?php echo $v['area'] ?></td>
+														<td class="hidden-480"><a href="<?php echo $v['img'] ?>" target="_blank"><img src='<?php echo $v['img'] ?>' width="100"></a></td>
+														<td><?php echo $v['attribute'] ?></td>
+														<td><?php echo $v['rule'] ?></td>
+														<td><?php echo $v['floor'] ?></td>
+														<td><?php echo $v['subway'] ?></td>
+														<td><?php echo $v['method'] ?></td>
+														<td><?php echo $v['price'] ?></td>
+														<td><?php echo $v['visit'] ?></td>
+														<td><?php echo $v['size'] ?></td>
+														<td><?php echo $v['time'] ?></td>
 
 														<td class="hidden-480">
-															<span class="label label-sm label-warning">Expiring</span>
+															<span class="label label-sm label-warning"><?php echo $v['direction'] ?></span>
 														</td>
 
 														<td>
-															<div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
-																<button class="btn btn-xs btn-success">
-																	<i class="icon-ok bigger-120"></i>
-																</button>
-
-																<button class="btn btn-xs btn-info">
-																	<i class="icon-edit bigger-120"></i>
-																</button>
-
+															<div class="visible-md visible-lg hidden-sm hidden-xs btn-group" c_id="<?php echo $v['id'] ?>">
 																<button class="btn btn-xs btn-danger">
 																	<i class="icon-trash bigger-120"></i>
 																</button>
-
-																<button class="btn btn-xs btn-warning">
-																	<i class="icon-flag bigger-120"></i>
-																</button>
-															</div>
-
-															<div class="visible-xs visible-sm hidden-md hidden-lg">
-																<div class="inline position-relative">
-																	<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown">
-																		<i class="icon-cog icon-only bigger-110"></i>
-																	</button>
-
-																	<ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-																		<li>
-																			<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-
-																		<li>
-																			<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120"></i>
-																				</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
 															</div>
 														</td>
 													</tr>
-
+											<?php	} ?>
 												</tbody>
 											</table>
+												<div id="pages"></div>
 										</div><!-- /.table-responsive -->
 									</div><!-- /span -->
 								</div><!-- /row -->
 
 								<div class="hr hr-18 dotted hr-double"></div>
 
-								<h4 class="pink">
-									<i class="icon-hand-right icon-animated-hand-pointer blue"></i>
-									<a href="#modal-table" role="button" class="green" data-toggle="modal"> Table Inside a Modal Box </a>
-								</h4>
-
-								<div class="hr hr-18 dotted hr-double"></div>
-
-
-
-								<div id="modal-table" class="modal fade" tabindex="-1">
-									<div class="modal-dialog">
-										<div class="modal-content">
-											<div class="modal-header no-padding">
-												<div class="table-header">
-													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-														<span class="white">&times;</span>
-													</button>
-													Results for "Latest Registered Domains
-												</div>
-											</div>
-
-											<div class="modal-body no-padding">
-												<table class="table table-striped table-bordered table-hover no-margin-bottom no-border-top">
-													<thead>
-														<tr>
-															<th>Domain</th>
-															<th>Price</th>
-															<th>Clicks</th>
-
-															<th>
-																<i class="icon-time bigger-110"></i>
-																Update
-															</th>
-														</tr>
-													</thead>
-
-													<tbody>
-														<tr>
-															<td>
-																<a href="#">ace.com</a>
-															</td>
-															<td>$45</td>
-															<td>3,330</td>
-															<td>Feb 12</td>
-														</tr>
-
-														<tr>
-															<td>
-																<a href="#">base.com</a>
-															</td>
-															<td>$35</td>
-															<td>2,595</td>
-															<td>Feb 18</td>
-														</tr>
-
-														<tr>
-															<td>
-																<a href="#">max.com</a>
-															</td>
-															<td>$60</td>
-															<td>4,400</td>
-															<td>Mar 11</td>
-														</tr>
-
-														<tr>
-															<td>
-																<a href="#">best.com</a>
-															</td>
-															<td>$75</td>
-															<td>6,500</td>
-															<td>Apr 03</td>
-														</tr>
-
-														<tr>
-															<td>
-																<a href="#">pro.com</a>
-															</td>
-															<td>$55</td>
-															<td>4,250</td>
-															<td>Jan 21</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-
-											<div class="modal-footer no-margin-top">
-												<button class="btn btn-sm btn-danger pull-left" data-dismiss="modal">
-													<i class="icon-remove"></i>
-													Close
-												</button>
-
-												<ul class="pagination pull-right no-margin">
-													<li class="prev disabled">
-														<a href="#">
-															<i class="icon-double-angle-left"></i>
-														</a>
-													</li>
-
-													<li class="active">
-														<a href="#">1</a>
-													</li>
-
-													<li>
-														<a href="#">2</a>
-													</li>
-
-													<li>
-														<a href="#">3</a>
-													</li>
-
-													<li class="next">
-														<a href="#">
-															<i class="icon-double-angle-right"></i>
-														</a>
-													</li>
-												</ul>
-											</div>
-										</div><!-- /.modal-content -->
-									</div><!-- /.modal-dialog -->
 								</div><!-- PAGE CONTENT ENDS -->
 							</div><!-- /.col -->
 						</div><!-- /.row -->
@@ -442,13 +302,6 @@
 
 		<script src="assets/js/jquery-2.0.3.min.js"></script>
 
-		<!-- <![endif]-->
-
-		<!--[if IE]>
-<script src="assets/js/jquery-2.0.3.min.js"></script>
-<![endif]-->
-
-		<!--[if !IE]> -->
 
 		<script type="text/javascript">
 			window.jQuery || document.write("<script src='assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
@@ -519,3 +372,61 @@
 	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>
+<script>
+
+	$('#btn btn-xs btn-danger').click(function(){
+		_this = $(this);
+		var id = _this.pron('c_id');
+		alert(id);
+	})
+	$('#price_asc').click(function(){
+		alert('价格升序')
+	})
+	$('#price_desc').click(function(){
+		alert('价格降序')
+	})
+	//搜素拼接条件
+	var obj = new Object();
+	$('#search').click(function(){
+		obj['keyword']		= $('#keyword').val();
+		obj['unkeyword']	= $('#unkeyword').val();
+		obj['start_price']	= $('#start_price').val();
+		obj['end_price']	= $('#end_price').val();
+		page(1);
+	});
+	window.onload = function(){
+　　	page(1);
+	} 
+
+	//分页
+	function page(p){
+
+		var str = '';
+		$.each(obj, function(k,v){
+			str += k+'='+v+'&';
+		});
+
+		str += 'p='+p;
+
+		$.ajax({
+		   type: "GET",
+		   url: "?r=index/page",
+		   data: str,
+		   dataType:'json',
+		   success: function(msg){
+		     	str1(msg);
+		   }
+		});
+	}
+
+	//拼接数据
+	function str1(msg){
+		var str = '';
+		$.each(msg.data,function(ke,va){
+			str+='<tr><td class="center"><label><input type="checkbox" class="ace" /><span class="lbl"></span></label></td><td><a href="#">'+va.title+'</a></td><td>'+va.area+'</td><td class="hidden-480"><a href="'+va.img+'" target="_blank"><img src="'+va.img+'" width="100"></a></td><td>'+va.attribute+'</td><td>'+va.rule+'</td><td>'+va.floor+'</td><td>'+va.subway+'</td><td>'+va.method+'</td><td>'+va.price+'</td><td>'+va.visit+'</td><td>'+va.size+'</td><td>'+va.time+'</td><td class="hidden-480"><span class="label label-sm label-warning">'+va.direction+'</span></td><td><div class="visible-md visible-lg hidden-sm hidden-xs btn-group"><button class="btn btn-xs btn-danger" c_id="'+va.id+'"><i class="icon-trash bigger-120"></i></button></div></td></tr>';
+		})
+		$("#tbody").html(str);
+		$("#pages").html(msg.pages);
+	}
+
+</script>

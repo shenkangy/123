@@ -1,0 +1,60 @@
+<?php 
+namespace frontend\models;
+
+use Yii;
+use yii\db\Query;
+use frontend\models\Collect;
+use yii\data\Pagination;
+use yii\base\Model;
+
+/**
+*搜索分页封装模型类
+*
+*@accept:页数，搜索条件
+*@XIA
+*@return:搜索分页后的数据 array
+*/
+Class PageSearch extends Model{
+	public function p($data){
+	    $query = Collect::find()->asArray();
+		$countQuery = count($query);
+		$where[] = '1=1';
+    	//关键字
+    	if (!empty($data['keyword'])) {
+    		$where[] = ' title like "%'.$data['keyword'].'%" or
+    					 area like "%'.$data['keyword'].'%" or
+    					 floor like "%'.$data['keyword'].'%" or
+    					 subway like "%'.$data['keyword'].'%" or
+    					 size like "%'.$data['keyword'].'%"';
+    	}
+    	//非关键字
+    	if (!empty($data['unkeyword'])) {
+    		$where[] = ' title not like "%'.$data['unkeyword'].'%" or
+    				area not like "%'.$data['unkeyword'].'%" or
+    				floor not like "%'.$data['unkeyword'].'%" or
+    				subway not like "%'.$data['unkeyword'].'%"';
+    	}
+    	//最小价格
+    	if (!empty($data['start_price'])) {
+    		$where[] = 'price >='.$data['start_price'];
+    	}
+    	//最大价格
+    	if (!empty($data['end_price'])) {
+    		$where[] = 'price <='.$data['end_price'];
+    	}
+    	//用and连接条件
+    	$sql = implode(' AND ',$where);
+    	// return $sql;die;
+	    $pages = new Pagination(['totalCount' => $countQuery]);
+	    $models = $query->where($sql)->offset($pages->offset)
+	        ->limit($pages->limit)
+	        ->all();
+
+    return ([
+         'data' => $models,
+         'pages' => $pages,
+    ]);
+
+
+	}
+}

@@ -28,8 +28,9 @@ Route::get('blog', 'BlogController@blog');
 Route::get('blog-info', 'BlogInfoController@BlogInfo');
 Route::get('process_info', 'ProcessInfoController@ProcessInfo');
 Route::get('process', 'ProcessController@process');
-Route::get('login', 'LoginController@login');
+Route::post('login', 'LoginController@login');
 Route::get('register', 'RegisterController@register');
+Route::get('regist', 'RegisterController@regist');
 Route::get('user-info', 'UserInfoController@userinfo');
 /*
 |--------------------------------------------------------------------------

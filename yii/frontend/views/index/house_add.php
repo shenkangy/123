@@ -1,6 +1,14 @@
 <!DOCTYPE html>
+   
 <html lang="en">
 	<head>
+	<style type="text/css">     
+        .mask {       
+                position: absolute; top: 0px; filter: alpha(opacity=60); background-color: #777;     
+                z-index: 1002; left: 0px;     
+                opacity:0.5; -moz-opacity:0.5;     
+            }     
+    </style>    
 		<meta charset="utf-8" />
 		<title>Bootstrap表单组件 - Bootstrap后台管理系统模版Ace下载</title>
 		<meta name="keywords" content="Bootstrap模版,Bootstrap模版下载,Bootstrap教程,Bootstrap中文" />
@@ -51,10 +59,17 @@
 		<script src="assets/js/html5shiv.js"></script>
 		<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
+		<style type="text/css">     
+    	.mask {       
+            position: absolute; top: 0px; filter: alpha(opacity=60); background-color: #777;     
+            z-index: 1002; left: 0px;     
+            opacity:0.5; -moz-opacity:0.5; 
+        }     
+</style> 
 	</head>
 
 	<body>
-    <?php include('head.php')?>
+    <?php include('head.php') ?>
 
 		<div class="main-container" id="main-container">
 			<script type="text/javascript">
@@ -100,7 +115,7 @@
 							<span class="btn btn-danger"></span>
 						</div>
 					</div><!-- #sidebar-shortcuts -->
-               <?php include('left.php')?>
+               <?php include('left.php') ?>
 					<!-- /.nav-list -->
 
 					<div class="sidebar-collapse" id="sidebar-collapse">
@@ -131,12 +146,13 @@
 						</ul><!-- .breadcrumb -->
 
 						<div class="nav-search" id="nav-search">
-							<form class="form-search">
-								<span class="input-icon">
-									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
-									<i class="icon-search nav-search-icon"></i>
-								</span>
-							</form>
+							<span class="input-icon">
+								<input type="text" placeholder="请输入要采集的页数" id="acquire" class="nav-search-input"/>
+								<button id="search"  style="heigth:20px;" class="btn btn-xs btn-success" type="button">
+												<i class="icon-ok bigger-110"></i>
+												点击采集链家
+								</button>
+							</span>
 						</div><!-- #nav-search -->
 					</div>
 
@@ -156,52 +172,136 @@
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1">房屋名称</label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1" placeholder="Username" class="col-xs-10 col-sm-5" />
+											<input type="text" id="title"  placeholder="例如：嘉园一里 3室1厅 6700元(关键字方便查询)" class="col-xs-10 col-sm-5" />
 										</div>
 									</div>
-
 									<div class="space-4"></div>
-
 									<div class="form-group">
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 地理位置 </label>
 
 										<div class="col-sm-9">
-											<input type="password" id="form-field-2" placeholder="Password" class="col-xs-10 col-sm-5" />
+											<input type="text" id="area" placeholder="嘉园一里" class="col-xs-10 col-sm-5" />
 										</div>
 									</div>
 
 									<div class="space-4"></div>
-
 									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 房屋价格 </label>
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 房屋属性 </label>
 
 										<div class="col-sm-9">
-											<input  type="text" class="col-xs-10 col-sm-5" id="form-input-readonly"  />
+											<input  type="text" class="col-xs-10 col-sm-5" id="attribute" placeholder="例如：一室一厅" />
 
 										</div>
 									</div>
+									<div class="space-4"></div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 房屋尺寸 </label>
 
+										<div class="col-sm-9">
+											<input  type="text" class="col-xs-10 col-sm-5" id="size" placeholder="例如：80平米" />
+
+										</div>
+									</div>
+									<div class="space-4"></div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 采光方向 </label>
+
+										<div class="col-sm-9">
+											<input  type="text" class="col-xs-10 col-sm-5" id="direction" placeholder="例如：南" />
+
+										</div>
+									</div>
+									<div class="space-4"></div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 租房区域 </label>
+
+										<div class="col-sm-9">
+											<input  type="text" class="col-xs-10 col-sm-5" id="rule" placeholder="例如：沙河租房" />
+
+										</div>
+									</div>
+									<div class="space-4"></div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 楼层属性 </label>
+
+										<div class="col-sm-9">
+											<input  type="text" class="col-xs-10 col-sm-5" id="floor" placeholder="例如：中楼层(共8层)" />
+
+										</div>
+									</div>
+									<div class="space-4"></div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 附近地铁 </label>
+
+										<div class="col-sm-9">
+											<input  type="text" class="col-xs-10 col-sm-5" id="subway" placeholder="例如：距离13号线西二旗888米" />
+
+										</div>
+									</div>
+									<div class="space-4"></div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 供暖方式 </label>
+
+										<div class="col-sm-9">
+											<input  type="text" class="col-xs-10 col-sm-5" id="method" placeholder="例如：集体供暖" />
+
+										</div>
+									</div>
+									<div class="space-4"></div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 每月价格 </label>
+
+										<div class="col-sm-9">
+											<input  type="text" class="col-xs-10 col-sm-5" id="price" placeholder="例如：3000"  />
+
+										</div>
+									</div>
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-input-readonly"> 房屋图片 </label>
+										<div class="col-sm-9">
+											上传本地图片<input type="radio" name="img" id="file-img"><br/>
+											<input type="file" id="img-file" disabled="disabled">
+											输入图片链接<input type="radio" name="img" id="text-img"><br/>
+											<input type="text" id="img-text" disabled="disabled" value="http://">
+										</div>
+									</div>
+								<script src="assets/js/jquery-2.0.3.min.js"></script>
+								<script>
+									$("#file-img").click(function(){
+										var file_img = $("#file-img").attr("checked",true);
+										if (file_img) {
+											$("#img-file").attr("disabled",false);
+											$("#img-text").attr("disabled",true);
+										}
+									})
+									$("#text-img").click(function(){
+										var file_img = $("#text-img").attr("checked",true);
+										if (file_img) {
+											$("#img-text").attr("disabled",false);
+											$("#img-file").attr("disabled",true);
+										}
+									})
+								</script>
 									<div class="space-4"></div>
 
 									<div class="form-group">
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-4">联系电话</label>
 
 										<div class="col-sm-9">
-											<input class="input-sm" type="text" id="form-field-4" placeholder=".input-sm" />
+											<input class="input-sm" id="phone" type="text" placeholder="联系人手机号" />
+										</div>
 									</div>
+									<div class="space-4"></div>
 
 									<div class="form-group">
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-5">联系人</label>
-
 										<div class="col-sm-9">
 											<div class="clearfix">
-												<input class="col-xs-1" type="text" id="form-field-5" " />
+												<input class="col-xs-1" placeholder="房东电话" id="owner" type="text" />
 											</div>
-
-									</div>
-
-
-
+										</div>
 									</div>
 
 									<div class="space-4"></div>
@@ -210,7 +310,7 @@
 
 									<div class="clearfix form-actions">
 										<div class="col-md-offset-3 col-md-9">
-											<button class="btn btn-info" type="button">
+											<button class="btn btn-info" type="button" id="get_info">
 												<i class="icon-ok bigger-110"></i>
 												添加
 											</button>
@@ -222,7 +322,8 @@
 											</button>
 										</div>
 									</div>
-
+	    <div id="mask" class="mask"></div>    
+    <a href="javascript:;" onclick="showMask()" >点我显示遮罩层</a><br />  
 									<div class="hr hr-24"></div>
 
 									<!-- /.main-container -->
@@ -564,7 +665,75 @@
 				*/
 			
 			});
-		</script>
-	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
-</body>
-</html>
+        //兼容火狐、IE8   
+        //显示遮罩层    
+        function showMask(){     
+            $("#mask").css("height",$(document).height());     
+            $("#mask").css("width",$(document).width());     
+            $("#mask").show();     
+        }  
+        //隐藏遮罩层  
+        function hideMask(){     
+              
+            $("#mask").hide();     
+        }  
+         
+     
+
+	//自动采集链家数据更新数据库
+	$("#search").click(function(){
+		var acquire = $("#acquire").val();
+		$("#mask").css("height",$(document).height());     
+        $("#mask").css("width",$(document).width());   
+		var res = confirm('您确定要重新采集信息到数据库？');    
+		if (res) {
+			alert('请稍等...')
+			$("#mask").show();   
+			$.ajax({
+				url:"?r=acquire/getpage",
+				data:{num:acquire},
+				type:"get",
+				success:function(msg){
+					if (msg) {
+						$("#mask").hide();  
+						alert('采集成功');
+					}else{
+						$("#mask").hide();  
+						alert('失败');
+					}
+				}
+			})
+		}	
+	})
+
+	//添加房屋详细信息
+
+	$("#get_info").click(function(){
+		var title		= $('#title').val();
+		var area		= $('#area').val();
+		var size		= $('#size').val();
+		var attribute	= $('#attribute').val();
+		var direction	= $('#direction').val();
+		var rule		= $('#rule').val();
+		var floor		= $('#floor').val();
+		var subway		= $('#subway').val();
+		var method		= $('#method').val();
+		var price		= $('#price').val();
+		var owner		= $('#owner').val();
+		var phone		= $('#phone').val();
+		var img 		= $('#img-text').val();
+		$.ajax({
+			url:"?r=house/houseadd",
+			data:{title:title,area:area,size:size,attribute:attribute,direction:direction,rule:rule,floor:floor,subway:subway,method:method,price:price,owner:owner,phone:phone,img:img},
+			type:"post",
+			success:function(msg){
+				if (msg==1) {
+					alert("添加成功");
+				}else{
+					alert("添加失败");
+				}
+			}
+
+		})
+	})
+</script>

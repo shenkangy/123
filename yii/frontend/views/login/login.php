@@ -73,14 +73,14 @@
 												<fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="text" class="form-control" placeholder="用户名" />
+															<input type="text" class="form-control" placeholder="用户名" id="admin_name" />
 															<i class="icon-user"></i>
 														</span>
 													</label>
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="password" class="form-control" placeholder="密&nbsp;&nbsp;&nbsp;&nbsp;码" />
+															<input type="password" id="admin_pwd" class="form-control" placeholder="密&nbsp;&nbsp;&nbsp;&nbsp;码" />
 															<i class="icon-lock"></i>
 														</span>
 													</label>
@@ -89,11 +89,11 @@
 
 													<div class="clearfix">
 														<label class="inline">
-															<input type="checkbox" class="ace" />
+															<input type="checkbox" class="ace" id="free_login" />
 															<span class="lbl">七天免登陆</span>
 														</label>
-
-														<button type="button" class="width-35 pull-right btn btn-sm btn-primary">
+																
+														<button type="button" id="login" class="width-35 pull-right btn btn-sm btn-primary">
 															<i class="icon-key"></i>
 															登录
 														</button>
@@ -194,36 +194,30 @@
 
 											<form>
 												<fieldset>
+													
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="email" class="form-control" placeholder="请输入邮箱" />
-															<i class="icon-envelope"></i>
-														</span>
-													</label>
-
-													<label class="block clearfix">
-														<span class="block input-icon input-icon-right">
-															<input type="text" class="form-control" placeholder="请输入昵称" />
+															<input type="text" class="form-control" placeholder="请输入昵称" id="admin_name_reg" />
 															<i class="icon-user"></i>
 														</span>
 													</label>
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="password" class="form-control" placeholder="请输入密码" />
+															<input type="password" class="form-control" placeholder="请输入密码" id="admin_pwd_reg" />
 															<i class="icon-lock"></i>
 														</span>
 													</label>
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="password" class="form-control" placeholder="请再次输入密码" />
+															<input type="password" class="form-control" placeholder="请再次输入密码" id="admin_pwd2_reg" />
 															<i class="icon-retweet"></i>
 														</span>
 													</label>
 
 													<label class="block">
-														<input type="checkbox" class="ace" />
+														<input type="checkbox" class="ace" id="agree" />
 														<span class="lbl">
 															我接受
 															<a href="#">用户协议</a>
@@ -238,7 +232,7 @@
 															重置
 														</button>
 
-														<button type="button" class="width-65 pull-right btn btn-sm btn-success">
+														<button type="button" class="width-65 pull-right btn btn-sm btn-success" id="register" disabled="disabled">
 															注册
 															<i class="icon-arrow-right icon-on-right"></i>
 														</button>
@@ -303,3 +297,80 @@
 	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>
+
+<script>
+//ajax后台登录验证
+	$("#login").click(function(){
+		var admin_name = $("#admin_name").val();
+		var admin_pwd  = $("#admin_pwd").val();
+		var free_login = $("#free_login").html();
+		
+		if (admin_name.length<6) {
+			alert('admin length is too slow');
+		}
+		if (admin_pwd.length<6) {
+			alert('password length is too slow');
+		}
+
+		$.ajax({
+			data:{admin_name:admin_name,admin_pwd:admin_pwd},
+			url:"?r=login/login",
+			type:"post",
+			success:function(msg){
+				if (msg ==1) {
+					alert("登录成功");
+					location.href='?r=index/index';
+				}else if (msg == 0) {
+					alert("密码错误");
+				}else{
+					alert("账号不存在");
+				}
+			}
+		})
+
+	})
+
+	$("#agree").click(function(){
+		var agree = $("#agree").prop("checked");
+		if (agree==false) {
+			$('#register').attr('disabled','true');
+		}else{
+			$('#register').removeAttr('disabled');
+		}
+	})
+	
+	// ajax后台管理员注册
+	$("#register").click(function(){
+		var admin_name_reg = $("#admin_name_reg").val();
+		var admin_pwd_reg  = $("#admin_pwd_reg").val();
+		var admin_pwd2_reg  = $("#admin_pwd2_reg").val();
+
+		if (admin_pwd_reg != admin_pwd2_reg) {
+			alert('两次密码输入不正确');
+			return false;
+		}
+		if (admin_name_reg.length<6) {
+			alert('admin length is too slow');
+			return false;
+		}
+		if (admin_pwd_reg.length<6) {
+			alert('password length is too slow');
+			return false;
+		}
+
+		$.ajax({
+			data:{admin_name:admin_name_reg,admin_pwd:admin_pwd_reg},
+			url:"?r=login/register",
+			type:"post",
+			success:function(msg){
+				if (msg ==1) {
+					alert("注册成功请登录");
+					location.href='?r=login/login';
+				}else{
+					alert("注册失败");
+				}
+			}
+		})
+
+	})
+</script>

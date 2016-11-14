@@ -16,7 +16,7 @@
     <script type="text/javascript" src="js/touchTouch.jquery.js"></script> 
 	<script type="text/javascript">if($(window).width()>1024){document.write("<"+"script src='js/jquery.preloader.js'></"+"script>");}	</script>
 	<script>		
-		 jQuery(window).load(function() {	
+		 jQuery(window).load(function() {
 		 $x = $(window).width();		
 	if($x > 1024)
 	{			

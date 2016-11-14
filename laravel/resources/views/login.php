@@ -83,15 +83,15 @@
                     </article>
     <div style="height:438px;">
        <div>
-        <form action="">
+        <form action="login" method="post">
          <table align="center">
            <tr>
              <td style="font-size:20px;color:#FFF;">用户名:</td>
-             <td><input type="text" ></td>
+             <td><input type="text" name="user_name"></td>
            </tr>
            <tr>
              <td style="font-size:20px;color:#FFF;">密码:</td>
-             <td><input type="password" ></td>
+             <td><input type="password" name="password"></td>
            </tr>         
            <tr>
              <td style="font-size:20px;color:#FFF;">验证码:</td>
