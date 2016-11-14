@@ -1,3 +1,6 @@
+<?php
+$session=\Yii::$app->session;
+?>
 <div class="navbar navbar-default" id="navbar">
 			<script type="text/javascript">
 				try{ace.settings.check('navbar' , 'fixed')}catch(e){}
@@ -229,7 +232,7 @@
 								<img class="nav-user-photo" src="assets/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>欢迎光临,</small>
-Jason
+									<?php echo  $session->get('admin_name');?>
 								</span>
 
 								<i class="icon-caret-down"></i>
@@ -253,7 +256,7 @@ Jason
 								<li class="divider"></li>
 
 								<li>
-									<a href="#">
+									<a href="?login/out">
 										<i class="icon-off"></i>
 退出
 									</a>

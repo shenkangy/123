@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+     return view('index');
+    //return['1'=>'hello','2'=>'world'];
 });
 
 Route::get('links', 'LinksController@index');

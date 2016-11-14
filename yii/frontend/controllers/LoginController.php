@@ -87,5 +87,13 @@ class LoginController extends Controller
 				echo 0;
 			}
 		}
+		/**
+		 * 退出登陆
+		 */
+		public function actionOut()
+		{
+			  $session->remove('admin_name');
+			return $this->render('login');
+		}
 	}
 

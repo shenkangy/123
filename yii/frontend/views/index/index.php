@@ -1,5 +1,5 @@
 <?php
-
+$session = Yii::$app->session;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,7 +48,7 @@
 	</head>
 
 	<body>
-<?php include('head.php')?>
+<?php include('head.php');?>
 
 		<div class="main-container" id="main-container">
 			<script type="text/javascript">
@@ -94,7 +94,7 @@
 							<span class="btn btn-danger"></span>
 						</div>
 					</div><!-- #sidebar-shortcuts -->
-                <?php include('left.php')?>
+                <?php include('left.php');?>
 					<!-- /.nav-list -->
 
 					<div class="sidebar-collapse" id="sidebar-collapse">

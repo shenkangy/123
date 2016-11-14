@@ -34,4 +34,5 @@ class IndexController extends Controller
     public function actionLog(){
         return $this->renderPartial('log_list');
     }
+   
 }
