@@ -11897,3 +11897,1317 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478611272.236
     'REQUEST_TIME' => 1478611272
 ]
+2016-11-09 16:25:10 [192.168.1.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.2
+    in D:\phpStudy\WWW\last\123\yii\frontend\views\layouts\main.php:79
+    in D:\phpStudy\WWW\last\123\yii\frontend\controllers\LoginController.php:67
+2016-11-09 16:25:09 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478677751'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => 'ed923ff5d0ecfd0a27a148b1f284c3ed4156204ce9cab925c6ceb2bb2345c996a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vHbUMNI0HuY4ggbl4ZlU2BptZzaVmyZS\";}'
+    'PHPSESSID' => 'qvt16kt2hjlhctg0enq9vi8d16'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478677751; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=ed923ff5d0ecfd0a27a148b1f284c3ed4156204ce9cab925c6ceb2bb2345c996a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vHbUMNI0HuY4ggbl4ZlU2BptZzaVmyZS%22%3B%7D; PHPSESSID=qvt16kt2hjlhctg0enq9vi8d16'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '54237'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=login/login'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478679909.262
+    'REQUEST_TIME' => 1478679909
+]
+2016-11-09 16:27:38 [192.168.1.2][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: frontend\controllers\LoginController::renderP()' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\frontend\controllers\LoginController.php(67): yii\base\Component->__call('renderP', Array)
+#1 D:\phpStudy\WWW\last\123\yii\frontend\controllers\LoginController.php(67): frontend\controllers\LoginController->renderP('login')
+#2 [internal function]: frontend\controllers\LoginController->actionLogin()
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('login/login', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2016-11-09 16:27:38 [192.168.1.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.2
+2016-11-09 16:27:38 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478677751'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => 'ed923ff5d0ecfd0a27a148b1f284c3ed4156204ce9cab925c6ceb2bb2345c996a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vHbUMNI0HuY4ggbl4ZlU2BptZzaVmyZS\";}'
+    'PHPSESSID' => 'qvt16kt2hjlhctg0enq9vi8d16'
+    'advanced-frontend' => 'eh722bgvdigvsobqciqjdjuvg7'
+    '_csrf-frontend' => '07c71bf93d5d5a5644c8fb0d927af34c033056ea2524b19d03ca9f4468ed467aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ouSnOJA-B_m-r7kbN-m3gQhIr6XEDjlW\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478677751; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=ed923ff5d0ecfd0a27a148b1f284c3ed4156204ce9cab925c6ceb2bb2345c996a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vHbUMNI0HuY4ggbl4ZlU2BptZzaVmyZS%22%3B%7D; PHPSESSID=qvt16kt2hjlhctg0enq9vi8d16; advanced-frontend=eh722bgvdigvsobqciqjdjuvg7; _csrf-frontend=07c71bf93d5d5a5644c8fb0d927af34c033056ea2524b19d03ca9f4468ed467aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ouSnOJA-B_m-r7kbN-m3gQhIr6XEDjlW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '54636'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=login/login'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478680058.189
+    'REQUEST_TIME' => 1478680058
+]
+2016-11-09 16:27:45 [192.168.1.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.2
+    in D:\phpStudy\WWW\last\123\yii\frontend\views\layouts\main.php:79
+    in D:\phpStudy\WWW\last\123\yii\frontend\controllers\LoginController.php:67
+2016-11-09 16:27:44 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478677751'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => 'ed923ff5d0ecfd0a27a148b1f284c3ed4156204ce9cab925c6ceb2bb2345c996a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vHbUMNI0HuY4ggbl4ZlU2BptZzaVmyZS\";}'
+    'PHPSESSID' => 'qvt16kt2hjlhctg0enq9vi8d16'
+    'advanced-frontend' => 'eh722bgvdigvsobqciqjdjuvg7'
+    '_csrf-frontend' => '07c71bf93d5d5a5644c8fb0d927af34c033056ea2524b19d03ca9f4468ed467aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ouSnOJA-B_m-r7kbN-m3gQhIr6XEDjlW\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478677751; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=ed923ff5d0ecfd0a27a148b1f284c3ed4156204ce9cab925c6ceb2bb2345c996a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vHbUMNI0HuY4ggbl4ZlU2BptZzaVmyZS%22%3B%7D; PHPSESSID=qvt16kt2hjlhctg0enq9vi8d16; advanced-frontend=eh722bgvdigvsobqciqjdjuvg7; _csrf-frontend=07c71bf93d5d5a5644c8fb0d927af34c033056ea2524b19d03ca9f4468ed467aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ouSnOJA-B_m-r7kbN-m3gQhIr6XEDjlW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '54638'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=login/login'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478680064.981
+    'REQUEST_TIME' => 1478680064
+]
+2016-11-09 16:31:57 [192.168.1.2][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#2 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('login/login', Array)
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2016-11-09 16:31:56 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_POST = [
+    'admin_name' => 'skysky'
+    'admin_pwd' => '123123'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478677751'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => 'ed923ff5d0ecfd0a27a148b1f284c3ed4156204ce9cab925c6ceb2bb2345c996a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vHbUMNI0HuY4ggbl4ZlU2BptZzaVmyZS\";}'
+    'PHPSESSID' => 'qvt16kt2hjlhctg0enq9vi8d16'
+    'advanced-frontend' => 'eh722bgvdigvsobqciqjdjuvg7'
+    '_csrf-frontend' => '07c71bf93d5d5a5644c8fb0d927af34c033056ea2524b19d03ca9f4468ed467aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ouSnOJA-B_m-r7kbN-m3gQhIr6XEDjlW\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/web/?r=login/login'
+    'CONTENT_LENGTH' => '34'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478677751; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=ed923ff5d0ecfd0a27a148b1f284c3ed4156204ce9cab925c6ceb2bb2345c996a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vHbUMNI0HuY4ggbl4ZlU2BptZzaVmyZS%22%3B%7D; PHPSESSID=qvt16kt2hjlhctg0enq9vi8d16; advanced-frontend=eh722bgvdigvsobqciqjdjuvg7; _csrf-frontend=07c71bf93d5d5a5644c8fb0d927af34c033056ea2524b19d03ca9f4468ed467aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ouSnOJA-B_m-r7kbN-m3gQhIr6XEDjlW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '54714'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=login/login'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478680316.94
+    'REQUEST_TIME' => 1478680316
+]
+2016-11-09 16:32:28 [192.168.1.2][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#2 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('login/login', Array)
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2016-11-09 16:32:28 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_POST = [
+    'admin_name' => 'sky'
+    'admin_pwd' => '123123'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478677751'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => 'ed923ff5d0ecfd0a27a148b1f284c3ed4156204ce9cab925c6ceb2bb2345c996a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vHbUMNI0HuY4ggbl4ZlU2BptZzaVmyZS\";}'
+    'PHPSESSID' => 'qvt16kt2hjlhctg0enq9vi8d16'
+    'advanced-frontend' => 'eh722bgvdigvsobqciqjdjuvg7'
+    '_csrf-frontend' => '07c71bf93d5d5a5644c8fb0d927af34c033056ea2524b19d03ca9f4468ed467aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ouSnOJA-B_m-r7kbN-m3gQhIr6XEDjlW\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/web/?r=login/login'
+    'CONTENT_LENGTH' => '31'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478677751; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=ed923ff5d0ecfd0a27a148b1f284c3ed4156204ce9cab925c6ceb2bb2345c996a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vHbUMNI0HuY4ggbl4ZlU2BptZzaVmyZS%22%3B%7D; PHPSESSID=qvt16kt2hjlhctg0enq9vi8d16; advanced-frontend=eh722bgvdigvsobqciqjdjuvg7; _csrf-frontend=07c71bf93d5d5a5644c8fb0d927af34c033056ea2524b19d03ca9f4468ed467aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ouSnOJA-B_m-r7kbN-m3gQhIr6XEDjlW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '54752'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=login/login'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478680348.418
+    'REQUEST_TIME' => 1478680348
+]
+2016-11-09 16:32:33 [192.168.1.2][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#2 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('login/login', Array)
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2016-11-09 16:32:33 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_POST = [
+    'admin_name' => 'skysky'
+    'admin_pwd' => '123123'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478677751'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => 'ed923ff5d0ecfd0a27a148b1f284c3ed4156204ce9cab925c6ceb2bb2345c996a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vHbUMNI0HuY4ggbl4ZlU2BptZzaVmyZS\";}'
+    'PHPSESSID' => 'qvt16kt2hjlhctg0enq9vi8d16'
+    'advanced-frontend' => 'eh722bgvdigvsobqciqjdjuvg7'
+    '_csrf-frontend' => '07c71bf93d5d5a5644c8fb0d927af34c033056ea2524b19d03ca9f4468ed467aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ouSnOJA-B_m-r7kbN-m3gQhIr6XEDjlW\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/web/?r=login/login'
+    'CONTENT_LENGTH' => '34'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478677751; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=ed923ff5d0ecfd0a27a148b1f284c3ed4156204ce9cab925c6ceb2bb2345c996a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vHbUMNI0HuY4ggbl4ZlU2BptZzaVmyZS%22%3B%7D; PHPSESSID=qvt16kt2hjlhctg0enq9vi8d16; advanced-frontend=eh722bgvdigvsobqciqjdjuvg7; _csrf-frontend=07c71bf93d5d5a5644c8fb0d927af34c033056ea2524b19d03ca9f4468ed467aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ouSnOJA-B_m-r7kbN-m3gQhIr6XEDjlW%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '54756'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=login/login'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478680353.022
+    'REQUEST_TIME' => 1478680353
+]
+2016-11-10 11:26:36 [192.168.1.2][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: order_states' in D:\phpStudy\WWW\last\123\yii\frontend\views\order\order_list.php:191
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\frontend\views\order\order_list.php(191): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\phpStudy\\WWW...', 191, Array)
+#1 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\View.php(326): require('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\View.php(248): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\View.php(150): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\OrderController))
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('order_list', Array, Object(frontend\controllers\OrderController))
+#5 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(25): yii\base\Controller->renderPartial('order_list', Array)
+#6 [internal function]: frontend\controllers\OrderController->actionOrder()
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('order', Array)
+#10 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/order', Array)
+#11 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2016-11-10 11:26:36 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'order/order'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478747961'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/web/?r=order/order'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478747961; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '56069'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order/order'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=order/order'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478748396.038
+    'REQUEST_TIME' => 1478748396
+]
+2016-11-10 14:32:14 [192.168.1.2][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: id' in D:\phpStudy\WWW\last\123\yii\frontend\views\order\order_list.php:207
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\frontend\views\order\order_list.php(207): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\phpStudy\\WWW...', 207, Array)
+#1 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\View.php(326): require('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\View.php(248): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\View.php(150): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\OrderController))
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('order_list', Array, Object(frontend\controllers\OrderController))
+#5 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(25): yii\base\Controller->renderPartial('order_list', Array)
+#6 [internal function]: frontend\controllers\OrderController->actionOrder()
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('order', Array)
+#10 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/order', Array)
+#11 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2016-11-10 14:32:14 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'order/order'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478753361'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/web/?r=order/order'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478753361; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '61766'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order/order'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=order/order'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478759534.365
+    'REQUEST_TIME' => 1478759534
+]
+2016-11-10 15:41:49 [192.168.1.2][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php:327
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(327): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\phpStudy\\WWW...', 327, Array)
+#1 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(513): yii\db\Command->bindValues('1')
+#2 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(31): yii\db\Command->delete('order_info', 'id', '1')
+#3 [internal function]: frontend\controllers\OrderController->actionDel()
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('del', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/del', Array)
+#8 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2016-11-10 15:41:49 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'order/del'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478758762'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/web/?r=order/order'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478758762; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '49262'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order/del&id=1'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=order/del&id=1'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478763709.73
+    'REQUEST_TIME' => 1478763709
+]
+2016-11-10 15:42:41 [192.168.1.2][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php:327
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(327): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\phpStudy\\WWW...', 327, Array)
+#1 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(513): yii\db\Command->bindValues('1')
+#2 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(31): yii\db\Command->delete('order_info', 'id', '1')
+#3 [internal function]: frontend\controllers\OrderController->actionDel()
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('del', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/del', Array)
+#8 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2016-11-10 15:42:41 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'order/del'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478758762'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/web/?r=order/order'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478758762; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '49285'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order/del&id=1'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=order/del&id=1'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478763761.167
+    'REQUEST_TIME' => 1478763761
+]
+2016-11-11 08:37:22 [192.168.1.2][-][6jb8kr0v8lbsjqp11q587g3gd1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "lorder".' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('lorder', Array)
+#1 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2016-11-11 08:37:22 [192.168.1.2][-][6jb8kr0v8lbsjqp11q587g3gd1][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.2
+    in D:\phpStudy\WWW\last\123\yii\frontend\views\layouts\main.php:79
+2016-11-11 08:37:22 [192.168.1.2][-][6jb8kr0v8lbsjqp11q587g3gd1][info][application] $_GET = [
+    'r' => 'lorder'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478823585'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => '992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi\";}'
+    'PHPSESSID' => 'q1dhgnhvadc5j3dcn7u8uh0932'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478823585; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi%22%3B%7D; PHPSESSID=q1dhgnhvadc5j3dcn7u8uh0932'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '51436'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=lorder'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=lorder'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478824642.347
+    'REQUEST_TIME' => 1478824642
+]
+2016-11-11 08:37:30 [192.168.1.2][-][6jb8kr0v8lbsjqp11q587g3gd1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: order/' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#1 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/', Array)
+#2 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2016-11-11 08:37:30 [192.168.1.2][-][6jb8kr0v8lbsjqp11q587g3gd1][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.2
+    in D:\phpStudy\WWW\last\123\yii\frontend\views\layouts\main.php:79
+2016-11-11 08:37:30 [192.168.1.2][-][6jb8kr0v8lbsjqp11q587g3gd1][info][application] $_GET = [
+    'r' => 'order/'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478823585'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => '992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi\";}'
+    'PHPSESSID' => 'q1dhgnhvadc5j3dcn7u8uh0932'
+    'advanced-frontend' => '6jb8kr0v8lbsjqp11q587g3gd1'
+    '_csrf-frontend' => '04b94270cccdb9519905b4f13eb93cc83350cf310e31be7016374a059b49982ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"pqvJxFm1ppZlpES23XLsN29avgSyqA9R\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478823585; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi%22%3B%7D; PHPSESSID=q1dhgnhvadc5j3dcn7u8uh0932; advanced-frontend=6jb8kr0v8lbsjqp11q587g3gd1; _csrf-frontend=04b94270cccdb9519905b4f13eb93cc83350cf310e31be7016374a059b49982ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22pqvJxFm1ppZlpES23XLsN29avgSyqA9R%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '51440'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order/'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=order/'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478824650.025
+    'REQUEST_TIME' => 1478824650
+]
+2016-11-11 09:07:35 [192.168.1.2][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(47): yii\db\Command->execute()
+#2 [internal function]: frontend\controllers\OrderController->actionDelall()
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('delall', Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/delall', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: delete from order_info where id IN (15)' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Schema.php:631
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'delete from ord...')
+#1 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(47): yii\db\Command->execute()
+#2 [internal function]: frontend\controllers\OrderController->actionDelall()
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('delall', Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/delall', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-11 09:07:35 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'order/delall'
+    'id' => '15'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478823585'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => '992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi\";}'
+    'PHPSESSID' => 'q1dhgnhvadc5j3dcn7u8uh0932'
+    'advanced-frontend' => '6jb8kr0v8lbsjqp11q587g3gd1'
+    '_csrf-frontend' => '04b94270cccdb9519905b4f13eb93cc83350cf310e31be7016374a059b49982ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"pqvJxFm1ppZlpES23XLsN29avgSyqA9R\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/web/?r=order/order'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478823585; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi%22%3B%7D; PHPSESSID=q1dhgnhvadc5j3dcn7u8uh0932; advanced-frontend=6jb8kr0v8lbsjqp11q587g3gd1; _csrf-frontend=04b94270cccdb9519905b4f13eb93cc83350cf310e31be7016374a059b49982ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22pqvJxFm1ppZlpES23XLsN29avgSyqA9R%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '52647'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order/delall&id=15'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=order/delall&id=15'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478826455.178
+    'REQUEST_TIME' => 1478826455
+]
+2016-11-11 09:08:37 [192.168.1.2][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(47): yii\db\Command->execute()
+#2 [internal function]: frontend\controllers\OrderController->actionDelall()
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('delall', Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/delall', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: delete from order_info where id IN (14,15)' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Schema.php:631
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'delete from ord...')
+#1 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(47): yii\db\Command->execute()
+#2 [internal function]: frontend\controllers\OrderController->actionDelall()
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('delall', Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/delall', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-11 09:08:37 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'order/delall'
+    'id' => '14,15'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478823585'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => '992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi\";}'
+    'PHPSESSID' => 'q1dhgnhvadc5j3dcn7u8uh0932'
+    'advanced-frontend' => '6jb8kr0v8lbsjqp11q587g3gd1'
+    '_csrf-frontend' => '04b94270cccdb9519905b4f13eb93cc83350cf310e31be7016374a059b49982ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"pqvJxFm1ppZlpES23XLsN29avgSyqA9R\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/web/?r=order/order'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478823585; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi%22%3B%7D; PHPSESSID=q1dhgnhvadc5j3dcn7u8uh0932; advanced-frontend=6jb8kr0v8lbsjqp11q587g3gd1; _csrf-frontend=04b94270cccdb9519905b4f13eb93cc83350cf310e31be7016374a059b49982ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22pqvJxFm1ppZlpES23XLsN29avgSyqA9R%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '52712'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order/delall&id=14%2C15'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=order/delall&id=14%2C15'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478826517.393
+    'REQUEST_TIME' => 1478826517
+]
+2016-11-11 09:14:02 [192.168.1.2][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(47): yii\db\Command->execute()
+#2 [internal function]: frontend\controllers\OrderController->actionDelall()
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('delall', Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/delall', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: delete from order_info where id IN (13)' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Schema.php:631
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'delete from ord...')
+#1 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(47): yii\db\Command->execute()
+#2 [internal function]: frontend\controllers\OrderController->actionDelall()
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('delall', Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/delall', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-11 09:14:02 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'order/delall'
+    'id' => '13'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478823585'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => '992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi\";}'
+    'PHPSESSID' => 'q1dhgnhvadc5j3dcn7u8uh0932'
+    'advanced-frontend' => '6jb8kr0v8lbsjqp11q587g3gd1'
+    '_csrf-frontend' => '04b94270cccdb9519905b4f13eb93cc83350cf310e31be7016374a059b49982ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"pqvJxFm1ppZlpES23XLsN29avgSyqA9R\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/web/?r=order/order'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478823585; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi%22%3B%7D; PHPSESSID=q1dhgnhvadc5j3dcn7u8uh0932; advanced-frontend=6jb8kr0v8lbsjqp11q587g3gd1; _csrf-frontend=04b94270cccdb9519905b4f13eb93cc83350cf310e31be7016374a059b49982ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22pqvJxFm1ppZlpES23XLsN29avgSyqA9R%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '52856'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order/delall&id=13'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=order/delall&id=13'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478826842.583
+    'REQUEST_TIME' => 1478826842
+]
+2016-11-11 09:14:41 [192.168.1.2][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(47): yii\db\Command->execute()
+#2 [internal function]: frontend\controllers\OrderController->actionDelall()
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('delall', Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/delall', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: delete from order_info where id IN (15)' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Schema.php:631
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'delete from ord...')
+#1 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(47): yii\db\Command->execute()
+#2 [internal function]: frontend\controllers\OrderController->actionDelall()
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('delall', Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/delall', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-11 09:14:41 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'order/delall'
+    'id' => '15'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478823585'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => '992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi\";}'
+    'PHPSESSID' => 'q1dhgnhvadc5j3dcn7u8uh0932'
+    'advanced-frontend' => '6jb8kr0v8lbsjqp11q587g3gd1'
+    '_csrf-frontend' => '04b94270cccdb9519905b4f13eb93cc83350cf310e31be7016374a059b49982ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"pqvJxFm1ppZlpES23XLsN29avgSyqA9R\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/web/?r=order/order'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478823585; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi%22%3B%7D; PHPSESSID=q1dhgnhvadc5j3dcn7u8uh0932; advanced-frontend=6jb8kr0v8lbsjqp11q587g3gd1; _csrf-frontend=04b94270cccdb9519905b4f13eb93cc83350cf310e31be7016374a059b49982ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22pqvJxFm1ppZlpES23XLsN29avgSyqA9R%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '52891'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order/delall&id=15'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=order/delall&id=15'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478826881.17
+    'REQUEST_TIME' => 1478826881
+]
+2016-11-11 14:03:41 [192.168.1.2][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(62): yii\db\Command->execute()
+#2 [internal function]: frontend\controllers\OrderController->actionJg()
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('jg', Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/jg', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: update order_info set order_status='0' where id=6' in D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Schema.php:631
+Stack trace:
+#0 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'update order_in...')
+#1 D:\phpStudy\WWW\last\123\yii\frontend\controllers\OrderController.php(62): yii\db\Command->execute()
+#2 [internal function]: frontend\controllers\OrderController->actionJg()
+#3 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('jg', Array)
+#6 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('order/jg', Array)
+#7 D:\phpStudy\WWW\last\123\yii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\last\123\yii\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2016-11-11 14:03:41 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'order/jg'
+    'id' => '6'
+    'date' => '0'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1189965100-1478305090-http%3A%2F%2Fwww.last.com%2F&ntime=1478839788'
+    'iweb_safecode' => '573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ'
+    'iweb_captcha' => 'f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ'
+    'iweb_admin_role_name' => 'fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva/nqqnvkIbgk5s'
+    'iweb_admin_id' => 'aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz'
+    'iweb_admin_name' => '5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw'
+    'iweb_admin_pwd' => '7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA'
+    'iweb_shoppingcart' => '573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4'
+    'iweb_last_login' => 'bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U'
+    '_csrf' => '992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi\";}'
+    'PHPSESSID' => 'q1dhgnhvadc5j3dcn7u8uh0932'
+    'advanced-frontend' => '6jb8kr0v8lbsjqp11q587g3gd1'
+    '_csrf-frontend' => '04b94270cccdb9519905b4f13eb93cc83350cf310e31be7016374a059b49982ea:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"pqvJxFm1ppZlpES23XLsN29avgSyqA9R\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.last.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.last.com/123/yii/frontend/web/?r=order/order'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1189965100-1478305090-http%253A%252F%252Fwww.last.com%252F%26ntime%3D1478839788; iweb_safecode=573f3e613cMTA3MTA4MDMwMGMzYmI6ZDE1Y2E2MzQ1MmFiNWBhOTVkZjU5ODZnMzg2Nzk4N2U8MjU2Y2U7Zz40ZDU4OGVlOQ; iweb_captcha=f31337f519MTA5MDgwNTIwMGFgYDFnNThhMTZnOTE5ZWBhMGowNDthd2V7aQ; iweb_admin_role_name=fe4d01d448NTMwMDAyMDAyNG5jMGQ0YTY5N282NjNhNzQ1OTwyPTTrsoXnva%2FnqqnvkIbgk5s; iweb_admin_id=aa80d8cfbaNzA5MDAzMDEzMGI1MGc7Yzc4ZTpkNzFuYDkzZTBjNzEz; iweb_admin_name=5c8b47c117MDIwMTYwMDYwNmE3MTcwMmxmOmMwNWU8NTczMGA7YTJoZGhtbw; iweb_admin_pwd=7771080504MDY4NjU3NzA1N2syPmRhZGo3Zj9hYjBhMzBlOTkwM2c2MTs3YTw2ZDc3OTYxNjMxMTQ8YjM0OTMzOTFiM2E4NA; iweb_shoppingcart=573f3e613cMTA3MTA4MDMwMGZhNjRsZTBlZjlmZDUwYTk3MDBmbzF7Jmdvb2V3JjpbWiQmcHJqYXNjdCY4XlV4; iweb_last_login=bd12d24716MDAwMDA4OTAwOTdlODM3YGNhMTA0YDMzZWFhNGVjY2U; _csrf=992f2779051646a962e7f55b78aa066914a53b101d1fbf222fa80ae09e0909e4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22skwCmYPqjTkNKv7ehWmswXcwpp4-CoWi%22%3B%7D; PHPSESSID=q1dhgnhvadc5j3dcn7u8uh0932; advanced-frontend=6jb8kr0v8lbsjqp11q587g3gd1; _csrf-frontend=04b94270cccdb9519905b4f13eb93cc83350cf310e31be7016374a059b49982ea%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22pqvJxFm1ppZlpES23XLsN29avgSyqA9R%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;E:\\xiaowugui\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\git\\Git\\cmd;D:\\tor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'www.last.com'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/last'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/last/123/yii/frontend/web/index.php'
+    'REMOTE_PORT' => '56652'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=order/jg&id=6&date=0'
+    'REQUEST_URI' => '/123/yii/frontend/web/?r=order/jg&id=6&date=0'
+    'SCRIPT_NAME' => '/123/yii/frontend/web/index.php'
+    'PHP_SELF' => '/123/yii/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478844221.428
+    'REQUEST_TIME' => 1478844221
+]
